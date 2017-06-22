@@ -26,7 +26,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>KAMILA KURPAN</h1>
-								<p><!--[-->An <a href="https://html5up.net">user experience designer</a> and writer <!--]--><br />
+								<p><!--[-->A <a href="https://html5up.net">user experience designer</a> and writer <!--]--><br />
 								<!--[-->With the creativity, passion and communication skills to solve any problem <a href="https://html5up.net/license"></a><!--]--></p>
 							</div>
 						</div>
@@ -45,14 +45,11 @@
 					<div id="main">
 						<!-- Apples -->
 						<article id="apples">
-							<h2 class="major">Apples</h2>
-							<h3 class="minor">more apples</h3>
+							<h2 class="major">EVERLAST</h2>
+							<h3 class="minor">Everlast A featured fitness app</h3>
+							<h3 class="minor">This will be updated shortly, with all the information.</h3>
 							<span class="image main"><img src="theme/images/pic01.jpg" alt="" /></span>
-							<p>FILL IN</p>
-							<p>FILL IN.</p>
-							<p>FILL IN</p>
-							<p>FILL IN</p>
-							<p>FILL IN</p>
+							<p>Below is a case study specifically looking at consumer onboarding. I completed this for EVERLAST, it is a fictitious community app, focusing on boxing called, "Fight Club."</p>
 						</article>
 						<!-- Intro -->
 							<article id="intro">
@@ -133,6 +130,14 @@
 								<p>Currently there are no plans to build this app fully, however if I was to continue working on BLUSHED I would complete my social media section and add a few more features.</p>
 							</article>
 
+							<!-- About -->
+							<article id="about">
+								<h2 class="major">EDGE</h2>
+								<h3 class="minor">EDGE A female snowboarding e-commerce app</h3>
+								<h3 class="minor">This will be updated shortly, with all the information.</h3>
+								<span class="image main"><img src="theme/images/pic01.jpg" alt="" /></span>
+								<p>In this assignment I looked at ways to incorporate visual design and amazing user experience. Below will show you my process in how I came up with the best user experience. I will also focus on how I was able to choose colours and other elements of visual design to make the customers experience the most rewarding.</p>
+							</article>
 
 									<h4>My Social Media</h4>
 									<ul class="icons">
