@@ -7,9 +7,9 @@ export default class Download extends Component {
             <div className="container">
                 <div className="row">
                     <div className="download_heading_text center-content">
-                        <h1>Download the App</h1>
-                        <p>Phasellus nisl leo congue eu malesuada lobortis fringilla et nulla. Curabitur posuere sem nec bibendum finibus.</p>
-
+                    <img src="images/zerojet-logo.jpeg" width="300" height="200" alt="zerojet logo"/>    
+                    <h1>Download the App:</h1>
+                       
                         <div className="down_text_des wow fadeInUp" data-wow-duration="1.5s">
                             <a href=""><img src="images/d2.png" alt="" /></a>
                             <a href=""><img src="images/d1.png" alt="" /></a>
