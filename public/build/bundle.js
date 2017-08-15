@@ -22754,6 +22754,12 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var style = {
+    border: {
+        borderRight: '.4px solid #E0E0E0'
+    }
+};
+
 var Work = function (_Component) {
     _inherits(Work, _Component);
 
@@ -22764,89 +22770,93 @@ var Work = function (_Component) {
     }
 
     _createClass(Work, [{
-        key: "render",
+        key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                "section",
-                { id: "works", className: "center-content" },
+                'section',
+                { id: 'works', className: 'center-content' },
                 _react2.default.createElement(
-                    "div",
-                    { className: "container" },
+                    'div',
+                    { className: 'container' },
                     _react2.default.createElement(
-                        "div",
-                        { className: "row" },
+                        'div',
+                        { className: 'row' },
                         _react2.default.createElement(
-                            "h1",
+                            'h1',
                             null,
-                            "."
+                            '.'
                         ),
-                        _react2.default.createElement("hr", null),
+                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
-                            "div",
-                            { className: "media" },
+                            'div',
+                            { className: 'media' },
                             _react2.default.createElement(
-                                "div",
-                                { className: "media" },
+                                'div',
+                                { className: 'media' },
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
+                                    'div',
+                                    { className: 'col-md-3' },
                                     _react2.default.createElement(
-                                        "h3",
+                                        'h3',
+                                        { style: style.border },
+                                        _react2.default.createElement(
+                                            'code',
+                                            null,
+                                            'Download the application'
+                                        )
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'col-md-3' },
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: '#' },
+                                        _react2.default.createElement('img', { className: 'media-object', width: '150', src: 'images/google-play.png', alt: 'simple' })
+                                    ),
+                                    _react2.default.createElement(
+                                        'h6',
                                         null,
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Download the application"
+                                            'Limited public Beta ~ 2000 spot per City'
                                         )
                                     )
                                 ),
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
+                                    'div',
+                                    { className: 'col-md-3' },
                                     _react2.default.createElement(
-                                        "a",
-                                        { href: "#" },
-                                        _react2.default.createElement("img", { className: "media-object", width: "150", height: "50", src: "images/google-play.png", alt: "simple" }),
-                                        _react2.default.createElement(
-                                            "h6",
-                                            null,
-                                            _react2.default.createElement(
-                                                "code",
-                                                null,
-                                                "Limited public Beta ~ 2000 spot per City"
-                                            )
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
+                                        'a',
+                                        { href: '#' },
+                                        _react2.default.createElement('img', { className: 'media-object', width: '150', src: 'images/available_apple.png', alt: 'simple' })
+                                    ),
                                     _react2.default.createElement(
-                                        "a",
-                                        { href: "#" },
-                                        _react2.default.createElement("img", { className: "media-object", width: "150", height: "50", src: "images/available_apple.png", alt: "simple" }),
-                                        _react2.default.createElement(
-                                            "h6",
-                                            null,
-                                            _react2.default.createElement(
-                                                "code",
-                                                null,
-                                                "Coming out Early 2018."
-                                            )
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
-                                    _react2.default.createElement("img", { src: "images/notification-icon.png", width: "50", height: "50", alt: "notification icon." }),
-                                    _react2.default.createElement(
-                                        "h6",
+                                        'h6',
                                         null,
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Notify of the Launch."
+                                            'Coming out Early 2018.'
+                                        )
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'div',
+                                    { className: 'col-md-3' },
+                                    _react2.default.createElement(
+                                        'a',
+                                        { href: '#' },
+                                        _react2.default.createElement('img', { src: 'images/notification-icon.png', width: '50', alt: 'notification icon.' })
+                                    ),
+                                    _react2.default.createElement(
+                                        'h6',
+                                        null,
+                                        _react2.default.createElement(
+                                            'code',
+                                            null,
+                                            'Notify of the Launch.'
                                         )
                                     )
                                 )
@@ -22854,208 +22864,208 @@ var Work = function (_Component) {
                         )
                     ),
                     _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement("hr", null),
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
-                            "div",
-                            { className: "media" },
+                            'div',
+                            { className: 'media' },
                             _react2.default.createElement(
-                                "div",
-                                { className: "media" },
+                                'div',
+                                { className: 'media' },
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
+                                    'div',
+                                    { className: 'col-md-3' },
                                     _react2.default.createElement(
-                                        "h3",
-                                        null,
+                                        'h3',
+                                        { style: style.border },
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Pay the security deposit."
+                                            'Pay the security deposit.'
                                         )
                                     )
                                 ),
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-9" },
+                                    'div',
+                                    { className: 'col-md-9' },
                                     _react2.default.createElement(
-                                        "h6",
+                                        'h6',
                                         null,
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners."
+                                            'A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners.'
                                         )
                                     )
                                 )
                             )
                         ),
-                        _react2.default.createElement("hr", null)
+                        _react2.default.createElement('hr', null)
                     ),
                     _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement("hr", null),
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
-                            "div",
-                            { className: "media" },
+                            'div',
+                            { className: 'media' },
                             _react2.default.createElement(
-                                "div",
-                                { className: "media" },
+                                'div',
+                                { className: 'media' },
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
+                                    'div',
+                                    { className: 'col-md-3' },
                                     _react2.default.createElement(
-                                        "h3",
-                                        null,
+                                        'h3',
+                                        { style: style.border },
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Fly"
+                                            'Fly'
                                         )
                                     )
                                 ),
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-9" },
+                                    'div',
+                                    { className: 'col-md-9' },
                                     _react2.default.createElement(
-                                        "h6",
+                                        'h6',
                                         null,
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Use the ZeroJet app to reserve flight to a chosen destination up to the airport and return."
+                                            'Use the ZeroJet app to reserve flight to a chosen destination up to the airport and return.'
                                         )
                                     )
                                 )
                             )
                         ),
-                        _react2.default.createElement("hr", null)
+                        _react2.default.createElement('hr', null)
                     ),
                     _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement("hr", null),
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
-                            "div",
-                            { className: "media" },
+                            'div',
+                            { className: 'media' },
                             _react2.default.createElement(
-                                "div",
-                                { className: "media" },
+                                'div',
+                                { className: 'media' },
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
+                                    'div',
+                                    { className: 'col-md-3' },
                                     _react2.default.createElement(
-                                        "h3",
-                                        null,
+                                        'h3',
+                                        { style: style.border },
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Spend with ZeroJet Partners."
+                                            'Spend with ZeroJet Partners.'
                                         )
                                     )
                                 ),
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-9" },
+                                    'div',
+                                    { className: 'col-md-9' },
                                     _react2.default.createElement(
-                                        "h6",
+                                        'h6',
                                         null,
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Spend as little as $500 on food, accomodation, transportation, activities and event options offered by ZeroJet partners at your destination."
+                                            'Spend as little as $500 on food, accomodation, transportation, activities and event options offered by ZeroJet partners at your destination.'
                                         )
                                     )
                                 )
                             )
                         ),
-                        _react2.default.createElement("hr", null)
+                        _react2.default.createElement('hr', null)
                     ),
                     _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement("hr", null),
+                        'div',
+                        { className: 'row' },
+                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
-                            "div",
-                            { className: "media" },
+                            'div',
+                            { className: 'media' },
                             _react2.default.createElement(
-                                "div",
-                                { className: "media" },
+                                'div',
+                                { className: 'media' },
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
+                                    'div',
+                                    { className: 'col-md-3' },
                                     _react2.default.createElement(
-                                        "h3",
-                                        null,
+                                        'h3',
+                                        { style: style.border },
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Come back home."
+                                            'Come back home.'
                                         )
                                     )
                                 ),
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-9" },
+                                    'div',
+                                    { className: 'col-md-9' },
                                     _react2.default.createElement(
-                                        "h6",
+                                        'h6',
                                         null,
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Fly back to your city of origin (This of course is optional)."
+                                            'Fly back to your city of origin (This of course is optional).'
                                         )
                                     )
                                 )
                             )
                         )
                     ),
-                    _react2.default.createElement("hr", null),
+                    _react2.default.createElement('hr', null),
                     _react2.default.createElement(
-                        "div",
-                        { className: "row" },
+                        'div',
+                        { className: 'row' },
                         _react2.default.createElement(
-                            "div",
-                            { className: "media" },
+                            'div',
+                            { className: 'media' },
                             _react2.default.createElement(
-                                "div",
-                                { className: "media" },
+                                'div',
+                                { className: 'media' },
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-3" },
+                                    'div',
+                                    { className: 'col-md-3' },
                                     _react2.default.createElement(
-                                        "h3",
-                                        null,
+                                        'h3',
+                                        { style: style.border },
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "Best Price Guarantee."
+                                            'Best Price Guarantee.'
                                         )
                                     )
                                 ),
                                 _react2.default.createElement(
-                                    "div",
-                                    { className: "col-md-9" },
+                                    'div',
+                                    { className: 'col-md-9' },
                                     _react2.default.createElement(
-                                        "h6",
+                                        'h6',
                                         null,
                                         _react2.default.createElement(
-                                            "code",
+                                            'code',
                                             null,
-                                            "We guarantee that all ZeroJet partner prices match or beat our competitors prices."
+                                            'We guarantee that all ZeroJet partner prices match or beat our competitors prices.'
                                         )
                                     )
                                 )
                             )
                         )
                     ),
-                    _react2.default.createElement("hr", null),
+                    _react2.default.createElement('hr', null),
                     _react2.default.createElement(
-                        "h1",
+                        'h1',
                         null,
-                        "."
+                        '.'
                     )
                 )
             );
@@ -23124,7 +23134,7 @@ var Download = function (_Component) {
                         _react2.default.createElement(
                             'div',
                             { className: 'download_heading_text center-content' },
-                            _react2.default.createElement('img', { src: 'images/zerojet-logo.jpeg', width: '300', height: '200', alt: 'zerojet logo' }),
+                            _react2.default.createElement('img', { src: 'images/zerojet-logo.jpeg', width: '300', alt: 'zerojet logo' }),
                             _react2.default.createElement(
                                 'h1',
                                 null,

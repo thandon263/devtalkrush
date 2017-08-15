@@ -15,7 +15,7 @@ export default class Download extends Component {
             <div className="container">
                 <div className="row">
                     <div className="download_heading_text center-content">
-                    <img src="images/zerojet-logo.jpeg" width="300" height="200" alt="zerojet logo"/>    
+                    <img src="images/zerojet-logo.jpeg" width="300" alt="zerojet logo"/>    
                     <h1>Download now:</h1>
                     <span style={style.banner}><code>Coming Spring 2018 (AppStore).</code></span>   
                         <div className="down_text_des wow fadeInUp" data-wow-duration="1.5s">
