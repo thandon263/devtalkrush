@@ -22798,11 +22798,11 @@ var Work = function (_Component) {
                                     { className: 'col-md-3' },
                                     _react2.default.createElement(
                                         'h3',
-                                        { style: style.border },
+                                        null,
                                         _react2.default.createElement(
                                             'code',
                                             null,
-                                            'Download the application'
+                                            'Download the application.'
                                         )
                                     )
                                 ),
@@ -22878,7 +22878,7 @@ var Work = function (_Component) {
                                     { className: 'col-md-3' },
                                     _react2.default.createElement(
                                         'h3',
-                                        { style: style.border },
+                                        null,
                                         _react2.default.createElement(
                                             'code',
                                             null,
@@ -22918,11 +22918,11 @@ var Work = function (_Component) {
                                     { className: 'col-md-3' },
                                     _react2.default.createElement(
                                         'h3',
-                                        { style: style.border },
+                                        null,
                                         _react2.default.createElement(
                                             'code',
                                             null,
-                                            'Fly'
+                                            'Fly.'
                                         )
                                     )
                                 ),
@@ -22958,7 +22958,7 @@ var Work = function (_Component) {
                                     { className: 'col-md-3' },
                                     _react2.default.createElement(
                                         'h3',
-                                        { style: style.border },
+                                        null,
                                         _react2.default.createElement(
                                             'code',
                                             null,
@@ -22998,7 +22998,7 @@ var Work = function (_Component) {
                                     { className: 'col-md-3' },
                                     _react2.default.createElement(
                                         'h3',
-                                        { style: style.border },
+                                        null,
                                         _react2.default.createElement(
                                             'code',
                                             null,
@@ -23037,7 +23037,7 @@ var Work = function (_Component) {
                                     { className: 'col-md-3' },
                                     _react2.default.createElement(
                                         'h3',
-                                        { style: style.border },
+                                        null,
                                         _react2.default.createElement(
                                             'code',
                                             null,
