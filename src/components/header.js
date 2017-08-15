@@ -16,7 +16,7 @@ export default class Header extends Component {
                                 <img src="images/iphone.png" alt="" />
                             </div>
                         </div>
-          <div className="col-sm-7 col-xs-12 heading-text">
+          <div className="col-sm-7 col-xs-12 heading-text center-content">
               <div className="single_home_content wow zoomIn" data-wow-duration="1s">
                 <h1>DISCOVER</h1>
                 <h2><code style={style}>Your destination</code></h2>
@@ -29,7 +29,7 @@ export default class Header extends Component {
           </div>
         </div>
             <div className="scrolldown">
-              <a href="#downloadApps" className="scroll_btn"></a>
+              <a href="#works" className="scroll_btn"></a>
             </div>
           </div>
         </section>

@@ -9789,6 +9789,7 @@ var App = function (_Component) {
         _react2.default.createElement(_index.Header, null),
         _react2.default.createElement(_index.About, null),
         _react2.default.createElement(_index.Download, null),
+        _react2.default.createElement(_index.FooterSection, null),
         _react2.default.createElement(_index.Footer, null)
       );
     }
@@ -22435,7 +22436,7 @@ module.exports = ReactDOMInvalidARIAHook;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Footer = exports.Download = exports.About = exports.Navigation = exports.Header = undefined;
+exports.FooterSection = exports.Footer = exports.Download = exports.About = exports.Navigation = exports.Header = undefined;
 
 var _header = __webpack_require__(185);
 
@@ -22457,13 +22458,19 @@ var _footer = __webpack_require__(189);
 
 var _footer2 = _interopRequireDefault(_footer);
 
+var _footerSection = __webpack_require__(190);
+
+var _footerSection2 = _interopRequireDefault(_footerSection);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// Components
 exports.Header = _header2.default;
 exports.Navigation = _navigation2.default;
 exports.About = _about2.default;
 exports.Download = _download2.default;
-exports.Footer = _footer2.default; // Components
+exports.Footer = _footer2.default;
+exports.FooterSection = _footerSection2.default;
 
 /***/ }),
 /* 185 */
@@ -22529,7 +22536,7 @@ var Header = function (_Component) {
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-sm-7 col-xs-12 heading-text' },
+                { className: 'col-sm-7 col-xs-12 heading-text center-content' },
                 _react2.default.createElement(
                   'div',
                   { className: 'single_home_content wow zoomIn', 'data-wow-duration': '1s' },
@@ -22570,7 +22577,7 @@ var Header = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'scrolldown' },
-            _react2.default.createElement('a', { href: '#downloadApps', className: 'scroll_btn' })
+            _react2.default.createElement('a', { href: '#works', className: 'scroll_btn' })
           )
         )
       );
@@ -22905,7 +22912,7 @@ var Work = function (_Component) {
                                         _react2.default.createElement(
                                             "code",
                                             null,
-                                            "Pay the security deposit."
+                                            "Fly"
                                         )
                                     )
                                 ),
@@ -22918,7 +22925,7 @@ var Work = function (_Component) {
                                         _react2.default.createElement(
                                             "code",
                                             null,
-                                            "A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners."
+                                            "Use the ZeroJet app to reserve flight to a chosen destination up to the airport and return."
                                         )
                                     )
                                 )
@@ -22945,7 +22952,7 @@ var Work = function (_Component) {
                                         _react2.default.createElement(
                                             "code",
                                             null,
-                                            "Pay the security deposit."
+                                            "Spend with ZeroJet Partners."
                                         )
                                     )
                                 ),
@@ -22958,7 +22965,7 @@ var Work = function (_Component) {
                                         _react2.default.createElement(
                                             "code",
                                             null,
-                                            "A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners."
+                                            "Spend as little as $500 on food, accomodation, transportation, activities and event options offered by ZeroJet partners at your destination."
                                         )
                                     )
                                 )
@@ -22985,7 +22992,7 @@ var Work = function (_Component) {
                                         _react2.default.createElement(
                                             "code",
                                             null,
-                                            "Pay the security deposit."
+                                            "Come back home."
                                         )
                                     )
                                 ),
@@ -22998,7 +23005,46 @@ var Work = function (_Component) {
                                         _react2.default.createElement(
                                             "code",
                                             null,
-                                            "A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners."
+                                            "Fly back to your city of origin (This of course is optional)."
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    ),
+                    _react2.default.createElement("hr", null),
+                    _react2.default.createElement(
+                        "div",
+                        { className: "row" },
+                        _react2.default.createElement(
+                            "div",
+                            { className: "media" },
+                            _react2.default.createElement(
+                                "div",
+                                { className: "media" },
+                                _react2.default.createElement(
+                                    "div",
+                                    { className: "col-md-3" },
+                                    _react2.default.createElement(
+                                        "h3",
+                                        null,
+                                        _react2.default.createElement(
+                                            "code",
+                                            null,
+                                            "Best Price Guarantee."
+                                        )
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    "div",
+                                    { className: "col-md-9" },
+                                    _react2.default.createElement(
+                                        "h6",
+                                        null,
+                                        _react2.default.createElement(
+                                            "code",
+                                            null,
+                                            "We guarantee that all ZeroJet partner prices match or beat our competitors prices."
                                         )
                                     )
                                 )
@@ -23046,6 +23092,14 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var style = {
+    banner: {
+        position: 'relative',
+        top: '-25px',
+        left: '20px'
+    }
+};
+
 var Download = function (_Component) {
     _inherits(Download, _Component);
 
@@ -23056,43 +23110,47 @@ var Download = function (_Component) {
     }
 
     _createClass(Download, [{
-        key: "render",
+        key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                "section",
-                { id: "downloadApps" },
+                'section',
+                { id: 'downloadApps' },
                 _react2.default.createElement(
-                    "div",
-                    { className: "container" },
+                    'div',
+                    { className: 'container' },
                     _react2.default.createElement(
-                        "div",
-                        { className: "row" },
+                        'div',
+                        { className: 'row' },
                         _react2.default.createElement(
-                            "div",
-                            { className: "download_heading_text center-content" },
-                            _react2.default.createElement("img", { src: "images/zerojet-logo.jpeg", width: "300", height: "200", alt: "zerojet logo" }),
+                            'div',
+                            { className: 'download_heading_text center-content' },
+                            _react2.default.createElement('img', { src: 'images/zerojet-logo.jpeg', width: '300', height: '200', alt: 'zerojet logo' }),
                             _react2.default.createElement(
-                                "h1",
+                                'h1',
                                 null,
-                                "Download the App:"
+                                'Download now:'
                             ),
                             _react2.default.createElement(
-                                "div",
-                                { className: "down_text_des wow fadeInUp", "data-wow-duration": "1.5s" },
+                                'span',
+                                { style: style.banner },
                                 _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("img", { src: "images/d2.png", alt: "" })
+                                    'code',
+                                    null,
+                                    'Coming Spring 2018 (AppStore).'
+                                )
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'down_text_des wow fadeInUp', 'data-wow-duration': '1.5s' },
+                                _react2.default.createElement(
+                                    'a',
+                                    { href: '' },
+                                    _react2.default.createElement('img', { src: 'images/Google_Play_Logo_2855.png', width: '300', alt: '' })
                                 ),
                                 _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("img", { src: "images/d1.png", alt: "" })
-                                ),
-                                _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("img", { src: "images/d3.png", alt: "" })
+                                    'a',
+                                    { href: '' },
+                                    _react2.default.createElement('img', { src: 'images/apple_appStore_logo.png', width: '300', alt: '' })
                                 )
                             )
                         )
@@ -23162,11 +23220,6 @@ var Footer = function (_Component) {
                                 _react2.default.createElement(
                                     "a",
                                     { href: "" },
-                                    _react2.default.createElement("i", { className: "fa fa-twitter" })
-                                ),
-                                _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
                                     _react2.default.createElement("i", { className: "fa fa-facebook" })
                                 ),
                                 _react2.default.createElement(
@@ -23177,22 +23230,7 @@ var Footer = function (_Component) {
                                 _react2.default.createElement(
                                     "a",
                                     { href: "" },
-                                    _react2.default.createElement("i", { className: "fa fa-google-plus" })
-                                ),
-                                _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
                                     _react2.default.createElement("i", { className: "fa fa-instagram" })
-                                ),
-                                _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("i", { className: "fa fa-pinterest-p" })
-                                ),
-                                _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("i", { className: "fa fa-dribbble" })
                                 )
                             )
                         ),
@@ -23206,14 +23244,14 @@ var Footer = function (_Component) {
                                     "p",
                                     { className: " wow zoomIn", "data-wow-duration": "1s" },
                                     "Made with ",
-                                    _react2.default.createElement("i", { "class": "fa fa-heart" }),
+                                    _react2.default.createElement("i", { className: "fa fa-heart" }),
                                     " by ",
                                     _react2.default.createElement(
                                         "a",
-                                        { href: "http://bootstrapthemes.co" },
-                                        "Bootstrap Themes"
+                                        { href: "http://zerojet.com" },
+                                        "ZeroJet"
                                     ),
-                                    "2016. All Rights Reserved"
+                                    "2017. All Rights Reserved"
                                 )
                             )
                         )
@@ -23227,6 +23265,186 @@ var Footer = function (_Component) {
 }(_react.Component);
 
 exports.default = Footer;
+
+/***/ }),
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(16);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var FooterSection = function (_Component) {
+  _inherits(FooterSection, _Component);
+
+  function FooterSection() {
+    _classCallCheck(this, FooterSection);
+
+    return _possibleConstructorReturn(this, (FooterSection.__proto__ || Object.getPrototypeOf(FooterSection)).apply(this, arguments));
+  }
+
+  _createClass(FooterSection, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "div",
+        { className: "container" },
+        _react2.default.createElement("hr", null),
+        _react2.default.createElement(
+          "section",
+          { className: "row" },
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-12" },
+            _react2.default.createElement(
+              "div",
+              { className: "col-md-6" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "2017 - 2018 public ",
+                _react2.default.createElement(
+                  "code",
+                  null,
+                  "beta"
+                ),
+                " routes"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Edmonton - Vancouver"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Toronto - Montreal"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Ottawa - Toronto"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Montreal - Niagara Falls"
+              ),
+              _react2.default.createElement(
+                "p",
+                null,
+                "Niagara Falls - Ottawa"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "col-md-6" },
+              _react2.default.createElement(
+                "h3",
+                null,
+                "2018 Destinations"
+              ),
+              _react2.default.createElement(
+                "div",
+                { className: "row" },
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-md-6" },
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "New York"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "San Diego"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Orlando"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Philadelphia"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Los Angeles"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "San Francisco"
+                  )
+                ),
+                _react2.default.createElement(
+                  "div",
+                  { className: "col-md-6" },
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Las Vegas"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Boston"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Atlanta"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Washington"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Phoenix"
+                  ),
+                  _react2.default.createElement(
+                    "p",
+                    null,
+                    "Chicago"
+                  )
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement("hr", null)
+      );
+    }
+  }]);
+
+  return FooterSection;
+}(_react.Component);
+
+exports.default = FooterSection;
 
 /***/ })
 /******/ ]);

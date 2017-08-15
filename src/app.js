@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-import { Navigation, Header, About, Download, Footer } from './components/index'
+import { Navigation, Header, About, Download, Footer, FooterSection } from './components/index'
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
         <Header />
         <About />
         <Download />
+        <FooterSection />
         <Footer />
       </div>
     )
