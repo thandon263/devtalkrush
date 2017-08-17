@@ -7,6 +7,11 @@ const style = {
     },
     logoText: {
         textShadow: '0 2px 6px #E91E63'
+    },
+    padding: {
+        padding: '0 12px',
+        position: 'relative',
+        top: '-5px'
     }
 }
 
@@ -22,13 +27,13 @@ export default class Navigation extends Component {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a  href="#home" className="navbar-brand"><span style={style.logo}>Zerojet</span></a>   
+                        <a  href="#home" className="navbar-brand"><span style={style.logo}><span style={style.padding}><img src="images/reverse.png" width="50"/></span>Zerojet</span></a>   
                     </div>
                     <div className="collapse navbar-collapse">
                         <ul className="nav navbar-nav navbar-right">
                             <li><a href="#works" className="">About</a></li>
                             <li><a href="#downloadApps" className="">Download</a></li>
-                            <li><a href="#pricing" className="">FAQ</a></li>
+                            <li><a href="/faq" className="">FAQ</a></li>
                             <li><a href="#" className="">Work with Us</a></li>
                             <li><a href="#" className="">Contact Us</a></li>
                         </ul>

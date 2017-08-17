@@ -3,6 +3,13 @@ import React, { Component } from 'react'
 const style = {
     border: {
         borderRight: '.4px solid #E0E0E0'
+    },
+    banner: {
+        position: 'relative',
+        top: '10px'
+    },
+    padding: {
+        padding: '40px'
     }
 }
 
@@ -12,7 +19,7 @@ export default class Work extends Component {
         <section id="works" className="center-content">
             <div className="container">
                 <div className="row">
-                <h1>.</h1>
+                <h1>About Us</h1>
                   <hr/>
                     <div className="media">
                         <div className="media">
@@ -21,15 +28,15 @@ export default class Work extends Component {
                             </div>
                             <div className="col-md-3">
                                 <a href="#"><img className="media-object" width="150" src="images/google-play.png" alt="simple"/></a>
-                                <h6><code>Limited public Beta ~ 2000 spot per City</code></h6>
+                                <div className="media-alt" style={style.banner}><code>Limited public Beta ~ 2000 spot per City</code></div>
                             </div>
                             <div className="col-md-3">
                                 <a href="#"><img className="media-object" width="150" src="images/available_apple.png" alt="simple"/></a>
-                                <h6><code>Coming out Early 2018.</code></h6>
+                                <div className="media-alt" style={style.banner}><code>Coming out Early 2018.</code></div>
                             </div>
                             <div className="col-md-3">
                                 <a href="#"><img src="images/notification-icon.png" width='50' alt="notification icon."/></a>
-                                <h6><code>Notify of the Launch.</code></h6>
+                                <div className="media-alt" style={style.banner}><code>Notify of the Launch.</code></div>
                             </div>
                         </div>
                     </div>
@@ -104,7 +111,7 @@ export default class Work extends Component {
                     </div>
                 </div>
                 <hr />
-                <h1>.</h1>
+                <h6 style={style.padding}><u>view more details in our terms and conditions.</u></h6>
             </div>
         </section>
     )

@@ -1,5 +1,12 @@
 import React, { Component } from 'react'
 
+
+const style = {
+  padding: {
+    padding: '20px'
+  }
+}
+
 class FooterSection extends Component {
   render() {
     return (
@@ -8,7 +15,7 @@ class FooterSection extends Component {
         <section className="row">
           <div className="col-md-12">         
             <div className="col-md-6">
-              <h3>2017 - 2018 public <code>beta</code> routes</h3>
+              <h3 style={style.padding}>2017 - 2018 public <code>beta</code> routes</h3>
               <p>Edmonton - Vancouver</p>
               <p>Toronto - Montreal</p>
               <p>Ottawa - Toronto</p>
@@ -16,7 +23,7 @@ class FooterSection extends Component {
               <p>Niagara Falls - Ottawa</p>
             </div>
             <div className="col-md-6">
-              <h3>2018 Destinations</h3>
+              <h3 style={style.padding}>2018 Destinations</h3>
               <div className="row">
                 <div className="col-md-6">
                   <p>New York</p>

@@ -1283,7 +1283,7 @@ var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
 var CallbackQueue = __webpack_require__(61);
-var PooledClass = __webpack_require__(15);
+var PooledClass = __webpack_require__(16);
 var ReactFeatureFlags = __webpack_require__(62);
 var ReactReconciler = __webpack_require__(19);
 var Transaction = __webpack_require__(28);
@@ -1538,7 +1538,7 @@ module.exports = ReactUpdates;
 
 var _assign = __webpack_require__(4);
 
-var PooledClass = __webpack_require__(15);
+var PooledClass = __webpack_require__(16);
 
 var emptyFunction = __webpack_require__(9);
 var warning = __webpack_require__(2);
@@ -2011,6 +2011,16 @@ module.exports = DOMProperty;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+module.exports = __webpack_require__(17);
+
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -2354,7 +2364,7 @@ module.exports = ReactElement;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2472,16 +2482,6 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = __webpack_require__(17);
-
-
-/***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2503,7 +2503,7 @@ var _assign = __webpack_require__(4);
 var ReactBaseClasses = __webpack_require__(50);
 var ReactChildren = __webpack_require__(83);
 var ReactDOMFactories = __webpack_require__(87);
-var ReactElement = __webpack_require__(14);
+var ReactElement = __webpack_require__(15);
 var ReactPropTypes = __webpack_require__(91);
 var ReactVersion = __webpack_require__(94);
 
@@ -6909,7 +6909,7 @@ module.exports = getIteratorFn;
 
 var ReactCurrentOwner = __webpack_require__(10);
 var ReactComponentTreeHook = __webpack_require__(7);
-var ReactElement = __webpack_require__(14);
+var ReactElement = __webpack_require__(15);
 
 var checkReactTypeSpec = __webpack_require__(88);
 
@@ -7376,7 +7376,7 @@ var _prodInvariant = __webpack_require__(3);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var PooledClass = __webpack_require__(15);
+var PooledClass = __webpack_require__(16);
 
 var invariant = __webpack_require__(1);
 
@@ -9752,7 +9752,7 @@ module.exports = getHostComponentFromComposite;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(16);
+var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -9818,7 +9818,7 @@ _reactDom2.default.render(_react2.default.createElement(App, null), document.get
 
 
 var PooledClass = __webpack_require__(84);
-var ReactElement = __webpack_require__(14);
+var ReactElement = __webpack_require__(15);
 
 var emptyFunction = __webpack_require__(9);
 var traverseAllChildren = __webpack_require__(85);
@@ -10377,7 +10377,7 @@ module.exports = KeyEscapeUtils;
 
 
 
-var ReactElement = __webpack_require__(14);
+var ReactElement = __webpack_require__(15);
 
 /**
  * Create a factory that creates HTML tag elements.
@@ -10698,7 +10698,7 @@ module.exports = ReactPropTypesSecret;
 
 
 
-var _require = __webpack_require__(14),
+var _require = __webpack_require__(15),
     isValidElement = _require.isValidElement;
 
 var factory = __webpack_require__(55);
@@ -11333,7 +11333,7 @@ module.exports = '15.6.1';
 var _require = __webpack_require__(50),
     Component = _require.Component;
 
-var _require2 = __webpack_require__(14),
+var _require2 = __webpack_require__(15),
     isValidElement = _require2.isValidElement;
 
 var ReactNoopUpdateQueue = __webpack_require__(51);
@@ -12239,7 +12239,7 @@ module.exports = factory;
 
 var _prodInvariant = __webpack_require__(18);
 
-var ReactElement = __webpack_require__(14);
+var ReactElement = __webpack_require__(15);
 
 var invariant = __webpack_require__(1);
 
@@ -12970,7 +12970,7 @@ module.exports = BeforeInputEventPlugin;
 
 var _assign = __webpack_require__(4);
 
-var PooledClass = __webpack_require__(15);
+var PooledClass = __webpack_require__(16);
 
 var getTextContentAccessor = __webpack_require__(60);
 
@@ -19132,7 +19132,7 @@ module.exports = flattenChildren;
 
 var _assign = __webpack_require__(4);
 
-var PooledClass = __webpack_require__(15);
+var PooledClass = __webpack_require__(16);
 var Transaction = __webpack_require__(28);
 var ReactInstrumentation = __webpack_require__(8);
 var ReactServerUpdateQueue = __webpack_require__(148);
@@ -19823,7 +19823,7 @@ var _assign = __webpack_require__(4);
 
 var EventListener = __webpack_require__(77);
 var ExecutionEnvironment = __webpack_require__(6);
-var PooledClass = __webpack_require__(15);
+var PooledClass = __webpack_require__(16);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactUpdates = __webpack_require__(11);
 
@@ -20065,7 +20065,7 @@ module.exports = ReactInjection;
 var _assign = __webpack_require__(4);
 
 var CallbackQueue = __webpack_require__(61);
-var PooledClass = __webpack_require__(15);
+var PooledClass = __webpack_require__(16);
 var ReactBrowserEventEmitter = __webpack_require__(32);
 var ReactInputSelection = __webpack_require__(78);
 var ReactInstrumentation = __webpack_require__(8);
@@ -22485,7 +22485,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(16);
+var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22602,7 +22602,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(16);
+var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22621,6 +22621,11 @@ var style = {
     },
     logoText: {
         textShadow: '0 2px 6px #E91E63'
+    },
+    padding: {
+        padding: '0 12px',
+        position: 'relative',
+        top: '-5px'
     }
 };
 
@@ -22661,6 +22666,11 @@ var Navigation = function (_Component) {
                                 _react2.default.createElement(
                                     'span',
                                     { style: style.logo },
+                                    _react2.default.createElement(
+                                        'span',
+                                        { style: style.padding },
+                                        _react2.default.createElement('img', { src: 'images/reverse.png', width: '50' })
+                                    ),
                                     'Zerojet'
                                 )
                             )
@@ -22694,7 +22704,7 @@ var Navigation = function (_Component) {
                                     null,
                                     _react2.default.createElement(
                                         'a',
-                                        { href: '#pricing', className: '' },
+                                        { href: '/faq', className: '' },
                                         'FAQ'
                                     )
                                 ),
@@ -22742,7 +22752,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(16);
+var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -22757,6 +22767,13 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var style = {
     border: {
         borderRight: '.4px solid #E0E0E0'
+    },
+    banner: {
+        position: 'relative',
+        top: '10px'
+    },
+    padding: {
+        padding: '40px'
     }
 };
 
@@ -22784,7 +22801,7 @@ var Work = function (_Component) {
                         _react2.default.createElement(
                             'h1',
                             null,
-                            '.'
+                            'About Us'
                         ),
                         _react2.default.createElement('hr', null),
                         _react2.default.createElement(
@@ -22815,8 +22832,8 @@ var Work = function (_Component) {
                                         _react2.default.createElement('img', { className: 'media-object', width: '150', src: 'images/google-play.png', alt: 'simple' })
                                     ),
                                     _react2.default.createElement(
-                                        'h6',
-                                        null,
+                                        'div',
+                                        { className: 'media-alt', style: style.banner },
                                         _react2.default.createElement(
                                             'code',
                                             null,
@@ -22833,8 +22850,8 @@ var Work = function (_Component) {
                                         _react2.default.createElement('img', { className: 'media-object', width: '150', src: 'images/available_apple.png', alt: 'simple' })
                                     ),
                                     _react2.default.createElement(
-                                        'h6',
-                                        null,
+                                        'div',
+                                        { className: 'media-alt', style: style.banner },
                                         _react2.default.createElement(
                                             'code',
                                             null,
@@ -22851,8 +22868,8 @@ var Work = function (_Component) {
                                         _react2.default.createElement('img', { src: 'images/notification-icon.png', width: '50', alt: 'notification icon.' })
                                     ),
                                     _react2.default.createElement(
-                                        'h6',
-                                        null,
+                                        'div',
+                                        { className: 'media-alt', style: style.banner },
                                         _react2.default.createElement(
                                             'code',
                                             null,
@@ -23063,9 +23080,13 @@ var Work = function (_Component) {
                     ),
                     _react2.default.createElement('hr', null),
                     _react2.default.createElement(
-                        'h1',
-                        null,
-                        '.'
+                        'h6',
+                        { style: style.padding },
+                        _react2.default.createElement(
+                            'u',
+                            null,
+                            'view more details in our terms and conditions.'
+                        )
                     )
                 )
             );
@@ -23090,7 +23111,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(16);
+var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -23188,7 +23209,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(16);
+var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -23289,7 +23310,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(16);
+var _react = __webpack_require__(14);
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -23301,6 +23322,12 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var style = {
+  padding: {
+    padding: '20px'
+  }
+};
+
 var FooterSection = function (_Component) {
   _inherits(FooterSection, _Component);
 
@@ -23311,142 +23338,142 @@ var FooterSection = function (_Component) {
   }
 
   _createClass(FooterSection, [{
-    key: "render",
+    key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        "div",
-        { className: "container" },
-        _react2.default.createElement("hr", null),
+        'div',
+        { className: 'container' },
+        _react2.default.createElement('hr', null),
         _react2.default.createElement(
-          "section",
-          { className: "row" },
+          'section',
+          { className: 'row' },
           _react2.default.createElement(
-            "div",
-            { className: "col-md-12" },
+            'div',
+            { className: 'col-md-12' },
             _react2.default.createElement(
-              "div",
-              { className: "col-md-6" },
+              'div',
+              { className: 'col-md-6' },
               _react2.default.createElement(
-                "h3",
-                null,
-                "2017 - 2018 public ",
+                'h3',
+                { style: style.padding },
+                '2017 - 2018 public ',
                 _react2.default.createElement(
-                  "code",
+                  'code',
                   null,
-                  "beta"
+                  'beta'
                 ),
-                " routes"
+                ' routes'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Edmonton - Vancouver"
+                'Edmonton - Vancouver'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Toronto - Montreal"
+                'Toronto - Montreal'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Ottawa - Toronto"
+                'Ottawa - Toronto'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Montreal - Niagara Falls"
+                'Montreal - Niagara Falls'
               ),
               _react2.default.createElement(
-                "p",
+                'p',
                 null,
-                "Niagara Falls - Ottawa"
+                'Niagara Falls - Ottawa'
               )
             ),
             _react2.default.createElement(
-              "div",
-              { className: "col-md-6" },
+              'div',
+              { className: 'col-md-6' },
               _react2.default.createElement(
-                "h3",
-                null,
-                "2018 Destinations"
+                'h3',
+                { style: style.padding },
+                '2018 Destinations'
               ),
               _react2.default.createElement(
-                "div",
-                { className: "row" },
+                'div',
+                { className: 'row' },
                 _react2.default.createElement(
-                  "div",
-                  { className: "col-md-6" },
+                  'div',
+                  { className: 'col-md-6' },
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "New York"
+                    'New York'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "San Diego"
+                    'San Diego'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Orlando"
+                    'Orlando'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Philadelphia"
+                    'Philadelphia'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Los Angeles"
+                    'Los Angeles'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "San Francisco"
+                    'San Francisco'
                   )
                 ),
                 _react2.default.createElement(
-                  "div",
-                  { className: "col-md-6" },
+                  'div',
+                  { className: 'col-md-6' },
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Las Vegas"
+                    'Las Vegas'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Boston"
+                    'Boston'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Atlanta"
+                    'Atlanta'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Washington"
+                    'Washington'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Phoenix"
+                    'Phoenix'
                   ),
                   _react2.default.createElement(
-                    "p",
+                    'p',
                     null,
-                    "Chicago"
+                    'Chicago'
                   )
                 )
               )
             )
           )
         ),
-        _react2.default.createElement("hr", null)
+        _react2.default.createElement('hr', null)
       );
     }
   }]);
