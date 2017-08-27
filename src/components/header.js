@@ -18,9 +18,8 @@ export default class Header extends Component {
                         </div>
           <div className="col-sm-7 col-xs-12 heading-text center-content">
               <div className="single_home_content wow zoomIn" data-wow-duration="1s">
-                <h1>DISCOVER</h1>
-                <h2><code style={style}>Your destination</code></h2>
-								<p className="bannerDescription">The ZeroJet app makes it easy to find hundreds of food, Activity and Event offerings at your destination. <br/>The app is also the best way to find accomodation and transportation options.</p>
+                <h1>DISCOVER AND EXPLORE</h1>
+								<p className="bannerDescription">Travel for free and experience hundreds of Food, Activity and Event offeringsaround you.</p>
 								<div className="button">
 									<a href="" className="btn">Downlod Android APP</a>
 								</div>

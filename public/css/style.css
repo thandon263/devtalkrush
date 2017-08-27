@@ -60,6 +60,7 @@ img{max-width:100%;}
 
 p {
     font: normal 16px "Myriad Pro", arial, sans-serif;
+    line-height: 30px;
 }
 a:hover{
     text-decoration:none;
@@ -163,6 +164,10 @@ section:nth-of-type(odd) {
     border-top: 1px solid #E91E63;
     padding: 10px 40px;
     line-height: 20px;
+}
+
+.contents {
+    height: 70px;
 }
 
 .faq_footer {
