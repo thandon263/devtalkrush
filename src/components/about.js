@@ -56,9 +56,10 @@ export default class Work extends Component {
                             </div>
                         </div>
                     </div>
-                    <hr />
+                    
                 </div>
                 <div className="row">
+                    <hr />
                     <div className="media">
                         <div className="media" >
                             <div className="col-md-4" style={style.textAlign}>
@@ -72,6 +73,7 @@ export default class Work extends Component {
                     <hr />
                 </div>
                 <div className="row">
+                    <hr />    
                     <div className="media">
                         <div className="media" >
                             <div className="col-md-4" style={style.textAlign}>
@@ -85,6 +87,7 @@ export default class Work extends Component {
                     <hr />
                 </div>
                 <div className="row">
+                    <hr />
                     <div className="media">
                         <div className="media" >
                             <div className="col-md-4" style={style.textAlign}>

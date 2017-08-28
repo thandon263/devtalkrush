@@ -22887,12 +22887,12 @@ var Work = function (_Component) {
                                     )
                                 )
                             )
-                        ),
-                        _react2.default.createElement('hr', null)
+                        )
                     ),
                     _react2.default.createElement(
                         'div',
                         { className: 'row' },
+                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
                             'div',
                             { className: 'media' },
@@ -22924,6 +22924,7 @@ var Work = function (_Component) {
                     _react2.default.createElement(
                         'div',
                         { className: 'row' },
+                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
                             'div',
                             { className: 'media' },
@@ -22955,6 +22956,7 @@ var Work = function (_Component) {
                     _react2.default.createElement(
                         'div',
                         { className: 'row' },
+                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
                             'div',
                             { className: 'media' },
