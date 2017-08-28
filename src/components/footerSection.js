@@ -3,28 +3,27 @@ import React, { Component } from 'react'
 
 const style = {
   padding: {
-    padding: '20px'
+    padding: '20px',
+    color: '#FFFFFF'
   }
 }
 
 class FooterSection extends Component {
   render() {
     return (
-      <div className="container">
-        <hr />
         <section className="row">
-          <div className="col-md-12">         
-            <div className="col-md-6">
+          <div className="col-md-12 footer-section">         
+            <div className="col-md-6 routes">
               <h3 style={style.padding}>2017 - 2018 public <code>beta</code> routes</h3>
-              <p>Edmonton - Vancouver</p>
-              <p>Toronto - Montreal</p>
-              <p>Ottawa - Toronto</p>
-              <p>Montreal - Niagara Falls</p>
+              <p>Edmonton      - Vancouver</p>
+              <p>Toronto       - Montreal</p>
+              <p>Ottawa        - Toronto</p>
+              <p>Montreal      - Niagara Falls</p>
               <p>Niagara Falls - Ottawa</p>
             </div>
             <div className="col-md-6">
               <h3 style={style.padding}>2018 Destinations</h3>
-              <div className="row">
+              <div className="row destination-list">
                 <div className="col-md-6">
                   <p>New York</p>
                   <p>San Diego</p>
@@ -45,8 +44,6 @@ class FooterSection extends Component {
             </div>
           </div>
         </section>
-        <hr />
-      </div>
     )
   }
 }

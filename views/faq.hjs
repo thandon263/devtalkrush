@@ -46,36 +46,32 @@
         </div>
         <div class="posts">
           <h3>2. Do I have to pledge to spend money with Zerojet partner to travel for free?</h3>
-          <p>...</p>
+          <p>Yes, we show you how much you have to spend at a destination to qualify for a free flight to that destination.</p>
         </div>
         <div class="posts">
-          <h3>3. Who are Zerojet partners?</h3>
-          <p>...</p>
+          <h3>3. What do Zerojet partners offer?</h3>
+          <p>We have a growing list of partners who offer car rentals, on demand ride hailing (an Uber like service), Accomodation, Activity and Entertainmentas well as dinning options. Want to offer any of the above services through Zerojet? Send us a Facebook message and we will get right back to you.</p>
         </div>
         <div class="posts">
-          <h3>4. What do Zerojet partners offer?</h3>
-          <p>...</p>
+          <h3>4. What happens if I do not spend the pledged amount before my return date?.</h3>
+          <p>If you have spent more than 50% of the pledged sum, we will allow you to take your return flight. We will also confiscate the security deposit and require a higher amount for future security deposits.</p>
         </div>
         <div class="posts">
-          <h3>5. What happens if I do not spend the pledged amount before my return date?.</h3>
-          <p>...</p>
+          <h3>5. How long do I have to spend the pledged amount?</h3>
+          <p>As long as you are at the destination. We will require you to have spent 50% or more if you intend to return to your origin from the destination through the Zerojet flight.</p>
         </div>
         <div class="posts">
-          <h3>6. How long do I have to spend the pledged amount?</h3>
-          <p>...</p>
+          <h3>6. Who operates the flights?</h3>
+          <p>We partner with the best local and international airlines, such as Porter Airlines.</p>
         </div>
         <div class="posts">
-          <h3>7. Who operates the flights?</h3>
-          <p>...</p>
-        </div>
-        <div class="posts">
-          <h3>8. When does service begin?</h3>
-          <p>...</p>
+          <h3>7. When does service begin?</h3>
+          <p>Service in Canada begins in September 2017.</p>
         </div>
       </div>
 
       <footer class="faq_footer">
-        All Rights Reserved | Zerojet 
+        All Rights Reserved 
       </footer>
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery/jquery.js"></script>

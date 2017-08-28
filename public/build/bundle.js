@@ -22543,23 +22543,12 @@ var Header = function (_Component) {
                   _react2.default.createElement(
                     'h1',
                     null,
-                    'DISCOVER'
-                  ),
-                  _react2.default.createElement(
-                    'h2',
-                    null,
-                    _react2.default.createElement(
-                      'code',
-                      { style: style },
-                      'Your destination'
-                    )
+                    'DISCOVER AND EXPLORE'
                   ),
                   _react2.default.createElement(
                     'p',
                     { className: 'bannerDescription' },
-                    'The ZeroJet app makes it easy to find hundreds of food, Activity and Event offerings at your destination. ',
-                    _react2.default.createElement('br', null),
-                    'The app is also the best way to find accomodation and transportation options.'
+                    'Travel for free and experience hundreds of Food, Activity and Event offerings around you.'
                   ),
                   _react2.default.createElement(
                     'div',
@@ -22577,7 +22566,7 @@ var Header = function (_Component) {
           _react2.default.createElement(
             'div',
             { className: 'scrolldown' },
-            _react2.default.createElement('a', { href: '#works', className: 'scroll_btn' })
+            _react2.default.createElement('a', { href: '#downloadApps', className: 'scroll_btn' })
           )
         )
       );
@@ -22662,7 +22651,7 @@ var Navigation = function (_Component) {
                             ),
                             _react2.default.createElement(
                                 'a',
-                                { href: '#home', className: 'navbar-brand' },
+                                { href: '/', className: 'navbar-brand' },
                                 _react2.default.createElement(
                                     'span',
                                     { style: style.logo },
@@ -22687,7 +22676,7 @@ var Navigation = function (_Component) {
                                     _react2.default.createElement(
                                         'a',
                                         { href: '#works', className: '' },
-                                        'About'
+                                        'How it works'
                                     )
                                 ),
                                 _react2.default.createElement(
@@ -22722,7 +22711,7 @@ var Navigation = function (_Component) {
                                     null,
                                     _react2.default.createElement(
                                         'a',
-                                        { href: '#', className: '' },
+                                        { href: 'https://www.facebook.com/goZerojet/', target: '_blank', className: '' },
                                         'Contact Us'
                                     )
                                 )
@@ -22774,6 +22763,13 @@ var style = {
     },
     padding: {
         padding: '40px'
+    },
+    textAlignLeft: {
+        textAlign: 'left'
+    },
+    textAlign: {
+        position: 'relative',
+        top: '16px'
     }
 };
 
@@ -22801,7 +22797,7 @@ var Work = function (_Component) {
                         _react2.default.createElement(
                             'h1',
                             null,
-                            'About Us'
+                            'How It Works'
                         ),
                         _react2.default.createElement('hr', null),
                         _react2.default.createElement(
@@ -22812,7 +22808,7 @@ var Work = function (_Component) {
                                 { className: 'media' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-3' },
+                                    { className: 'col-md-4' },
                                     _react2.default.createElement(
                                         'h3',
                                         null,
@@ -22825,7 +22821,7 @@ var Work = function (_Component) {
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-3' },
+                                    { className: 'col-md-4' },
                                     _react2.default.createElement(
                                         'a',
                                         { href: '#' },
@@ -22843,25 +22839,7 @@ var Work = function (_Component) {
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-3' },
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: '#' },
-                                        _react2.default.createElement('img', { className: 'media-object', width: '150', src: 'images/available_apple.png', alt: 'simple' })
-                                    ),
-                                    _react2.default.createElement(
-                                        'div',
-                                        { className: 'media-alt', style: style.banner },
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Coming out Early 2018.'
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-3' },
+                                    { className: 'col-md-4' },
                                     _react2.default.createElement(
                                         'a',
                                         { href: '#' },
@@ -22873,7 +22851,7 @@ var Work = function (_Component) {
                                         _react2.default.createElement(
                                             'code',
                                             null,
-                                            'Notify of the Launch.'
+                                            'Notify me of iOS Launch.'
                                         )
                                     )
                                 )
@@ -22892,28 +22870,20 @@ var Work = function (_Component) {
                                 { className: 'media' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-3' },
+                                    { className: 'col-md-4', style: style.textAlign },
                                     _react2.default.createElement(
                                         'h3',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Pay the security deposit.'
-                                        )
+                                        'Pay the security deposit.'
                                     )
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-9' },
+                                    { className: 'col-md-8', style: style.textAlignLeft },
                                     _react2.default.createElement(
-                                        'h6',
+                                        'p',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners.'
-                                        )
+                                        'A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners.'
                                     )
                                 )
                             )
@@ -22923,7 +22893,6 @@ var Work = function (_Component) {
                     _react2.default.createElement(
                         'div',
                         { className: 'row' },
-                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
                             'div',
                             { className: 'media' },
@@ -22932,28 +22901,20 @@ var Work = function (_Component) {
                                 { className: 'media' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-3' },
+                                    { className: 'col-md-4', style: style.textAlign },
                                     _react2.default.createElement(
                                         'h3',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Fly.'
-                                        )
+                                        'Fly.'
                                     )
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-9' },
+                                    { className: 'col-md-8', style: style.textAlignLeft },
                                     _react2.default.createElement(
-                                        'h6',
+                                        'p',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Use the ZeroJet app to reserve flight to a chosen destination up to the airport and return.'
-                                        )
+                                        'Use the ZeroJet app to reserve flight to a chosen destination up to the airport and return.'
                                     )
                                 )
                             )
@@ -22963,7 +22924,6 @@ var Work = function (_Component) {
                     _react2.default.createElement(
                         'div',
                         { className: 'row' },
-                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
                             'div',
                             { className: 'media' },
@@ -22972,28 +22932,20 @@ var Work = function (_Component) {
                                 { className: 'media' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-3' },
+                                    { className: 'col-md-4', style: style.textAlign },
                                     _react2.default.createElement(
                                         'h3',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Spend with ZeroJet Partners.'
-                                        )
+                                        'Spend with ZeroJet Partners.'
                                     )
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-9' },
+                                    { className: 'col-md-8', style: style.textAlignLeft },
                                     _react2.default.createElement(
-                                        'h6',
+                                        'p',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Spend as little as $500 on food, accomodation, transportation, activities and event options offered by ZeroJet partners at your destination.'
-                                        )
+                                        'Spend as little as $500 on food, accomodation, transportation, activities and event options offered by ZeroJet partners at your destination.'
                                     )
                                 )
                             )
@@ -23003,7 +22955,6 @@ var Work = function (_Component) {
                     _react2.default.createElement(
                         'div',
                         { className: 'row' },
-                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
                             'div',
                             { className: 'media' },
@@ -23012,28 +22963,20 @@ var Work = function (_Component) {
                                 { className: 'media' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-3' },
+                                    { className: 'col-md-4', style: style.textAlign },
                                     _react2.default.createElement(
                                         'h3',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Come back home.'
-                                        )
+                                        'Come back home.'
                                     )
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-9' },
+                                    { className: 'col-md-8', style: style.textAlignLeft },
                                     _react2.default.createElement(
-                                        'h6',
+                                        'p',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Fly back to your city of origin (This of course is optional).'
-                                        )
+                                        'Fly back to your city of origin (This is optional).'
                                     )
                                 )
                             )
@@ -23051,41 +22994,23 @@ var Work = function (_Component) {
                                 { className: 'media' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-3' },
+                                    { className: 'col-md-4', style: style.textAlign },
                                     _react2.default.createElement(
                                         'h3',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Best Price Guarantee.'
-                                        )
+                                        'Best Price Guarantee.'
                                     )
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-md-9' },
+                                    { className: 'col-md-8', style: style.textAlignLeft },
                                     _react2.default.createElement(
-                                        'h6',
+                                        'p',
                                         null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'We guarantee that all ZeroJet partner prices match or beat our competitors prices.'
-                                        )
+                                        'We guarantee that all ZeroJet partner prices match or beat our competitors prices.'
                                     )
                                 )
                             )
-                        )
-                    ),
-                    _react2.default.createElement('hr', null),
-                    _react2.default.createElement(
-                        'h6',
-                        { style: style.padding },
-                        _react2.default.createElement(
-                            'u',
-                            null,
-                            'view more details in our terms and conditions.'
                         )
                     )
                 )
@@ -23123,14 +23048,6 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var style = {
-    banner: {
-        position: 'relative',
-        top: '-25px',
-        left: '20px'
-    }
-};
-
 var Download = function (_Component) {
     _inherits(Download, _Component);
 
@@ -23141,47 +23058,47 @@ var Download = function (_Component) {
     }
 
     _createClass(Download, [{
-        key: 'render',
+        key: "render",
         value: function render() {
             return _react2.default.createElement(
-                'section',
-                { id: 'downloadApps' },
+                "section",
+                { id: "downloadApps" },
                 _react2.default.createElement(
-                    'div',
-                    { className: 'container' },
+                    "div",
+                    { className: "container" },
                     _react2.default.createElement(
-                        'div',
-                        { className: 'row' },
+                        "div",
+                        { className: "row" },
                         _react2.default.createElement(
-                            'div',
-                            { className: 'download_heading_text center-content' },
-                            _react2.default.createElement('img', { src: 'images/zerojet-logo.jpeg', width: '300', alt: 'zerojet logo' }),
+                            "div",
+                            { className: "download_heading_text center-content" },
+                            _react2.default.createElement("img", { src: "images/zerojet-logo.jpeg", width: "300", alt: "zerojet logo" }),
                             _react2.default.createElement(
-                                'h1',
+                                "h1",
                                 null,
-                                'Download now:'
+                                "Download now:"
                             ),
                             _react2.default.createElement(
-                                'span',
-                                { style: style.banner },
+                                "span",
+                                { className: "banner", "data-wow-duration": "1s" },
                                 _react2.default.createElement(
-                                    'code',
+                                    "code",
                                     null,
-                                    'Coming Spring 2018 (AppStore).'
+                                    "Coming Spring 2018 (AppStore)"
                                 )
                             ),
                             _react2.default.createElement(
-                                'div',
-                                { className: 'down_text_des wow fadeInUp', 'data-wow-duration': '1.5s' },
+                                "div",
+                                { className: "down_text_des wow fadeInUp", "data-wow-duration": "1.5s" },
                                 _react2.default.createElement(
-                                    'a',
-                                    { href: '' },
-                                    _react2.default.createElement('img', { src: 'images/Google_Play_Logo_2855.png', width: '300', alt: '' })
+                                    "a",
+                                    { href: "" },
+                                    _react2.default.createElement("img", { src: "images/Google_Play_Logo_2855.png", width: "300", alt: "" })
                                 ),
                                 _react2.default.createElement(
-                                    'a',
-                                    { href: '' },
-                                    _react2.default.createElement('img', { src: 'images/apple_appStore_logo.png', width: '300', alt: '' })
+                                    "a",
+                                    { href: "" },
+                                    _react2.default.createElement("img", { src: "images/apple_appStore_logo.png", width: "300", alt: "" })
                                 )
                             )
                         )
@@ -23274,15 +23191,12 @@ var Footer = function (_Component) {
                                 _react2.default.createElement(
                                     "p",
                                     { className: " wow zoomIn", "data-wow-duration": "1s" },
-                                    "Made with ",
-                                    _react2.default.createElement("i", { className: "fa fa-heart" }),
-                                    " by ",
                                     _react2.default.createElement(
                                         "a",
                                         { href: "http://zerojet.com" },
-                                        "ZeroJet"
+                                        "Zerojet"
                                     ),
-                                    "2017. All Rights Reserved"
+                                    "| All Rights Reserved"
                                 )
                             )
                         )
@@ -23324,7 +23238,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var style = {
   padding: {
-    padding: '20px'
+    padding: '20px',
+    color: '#FFFFFF'
   }
 };
 
@@ -23341,139 +23256,133 @@ var FooterSection = function (_Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'div',
-        { className: 'container' },
-        _react2.default.createElement('hr', null),
+        'section',
+        { className: 'row' },
         _react2.default.createElement(
-          'section',
-          { className: 'row' },
+          'div',
+          { className: 'col-md-12 footer-section' },
           _react2.default.createElement(
             'div',
-            { className: 'col-md-12' },
+            { className: 'col-md-6 routes' },
             _react2.default.createElement(
-              'div',
-              { className: 'col-md-6' },
+              'h3',
+              { style: style.padding },
+              '2017 - 2018 public ',
               _react2.default.createElement(
-                'h3',
-                { style: style.padding },
-                '2017 - 2018 public ',
-                _react2.default.createElement(
-                  'code',
-                  null,
-                  'beta'
-                ),
-                ' routes'
-              ),
-              _react2.default.createElement(
-                'p',
+                'code',
                 null,
-                'Edmonton - Vancouver'
+                'beta'
               ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'Toronto - Montreal'
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'Ottawa - Toronto'
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'Montreal - Niagara Falls'
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'Niagara Falls - Ottawa'
-              )
+              ' routes'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Edmonton      - Vancouver'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Toronto       - Montreal'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Ottawa        - Toronto'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Montreal      - Niagara Falls'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Niagara Falls - Ottawa'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-6' },
+            _react2.default.createElement(
+              'h3',
+              { style: style.padding },
+              '2018 Destinations'
             ),
             _react2.default.createElement(
               'div',
-              { className: 'col-md-6' },
+              { className: 'row destination-list' },
               _react2.default.createElement(
-                'h3',
-                { style: style.padding },
-                '2018 Destinations'
+                'div',
+                { className: 'col-md-6' },
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'New York'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'San Diego'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Orlando'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Philadelphia'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Los Angeles'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'San Francisco'
+                )
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'row' },
+                { className: 'col-md-6' },
                 _react2.default.createElement(
-                  'div',
-                  { className: 'col-md-6' },
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'New York'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'San Diego'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Orlando'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Philadelphia'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Los Angeles'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'San Francisco'
-                  )
+                  'p',
+                  null,
+                  'Las Vegas'
                 ),
                 _react2.default.createElement(
-                  'div',
-                  { className: 'col-md-6' },
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Las Vegas'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Boston'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Atlanta'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Washington'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Phoenix'
-                  ),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    'Chicago'
-                  )
+                  'p',
+                  null,
+                  'Boston'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Atlanta'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Washington'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Phoenix'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  null,
+                  'Chicago'
                 )
               )
             )
           )
-        ),
-        _react2.default.createElement('hr', null)
+        )
       );
     }
   }]);

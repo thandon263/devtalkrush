@@ -19,7 +19,7 @@ export default class Header extends Component {
           <div className="col-sm-7 col-xs-12 heading-text center-content">
               <div className="single_home_content wow zoomIn" data-wow-duration="1s">
                 <h1>DISCOVER AND EXPLORE</h1>
-								<p className="bannerDescription">Travel for free and experience hundreds of Food, Activity and Event offeringsaround you.</p>
+								<p className="bannerDescription">Travel for free and experience hundreds of Food, Activity and Event offerings around you.</p>
 								<div className="button">
 									<a href="" className="btn">Downlod Android APP</a>
 								</div>
@@ -28,7 +28,7 @@ export default class Header extends Component {
           </div>
         </div>
             <div className="scrolldown">
-              <a href="#works" className="scroll_btn"></a>
+              <a href="#downloadApps" className="scroll_btn"></a>
             </div>
           </div>
         </section>

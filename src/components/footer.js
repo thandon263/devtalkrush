@@ -15,7 +15,7 @@ export default class Footer extends Component {
                     </div>
                     <div className="col-md-12 col-sm-12">
                         <div className="copyright_text">
-                            <p className=" wow zoomIn" data-wow-duration="1s">Made with <i className="fa fa-heart"></i> by <a href="http://zerojet.com">ZeroJet</a>2017. All Rights Reserved</p>
+                            <p className=" wow zoomIn" data-wow-duration="1s"><a href="http://zerojet.com">Zerojet</a>| All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ export default class Work extends Component {
         <section id="works" className="center-content">
             <div className="container">
                 <div className="row">
-                <h1>About Us</h1>
+                <h1>How It Works</h1>
                   <hr/>
                     <div className="media">
                         <div className="media">
@@ -59,7 +59,6 @@ export default class Work extends Component {
                     <hr />
                 </div>
                 <div className="row">
-                    <hr />
                     <div className="media">
                         <div className="media" >
                             <div className="col-md-4" style={style.textAlign}>
@@ -73,7 +72,6 @@ export default class Work extends Component {
                     <hr />
                 </div>
                 <div className="row">
-                    <hr />
                     <div className="media">
                         <div className="media" >
                             <div className="col-md-4" style={style.textAlign}>
@@ -87,7 +85,6 @@ export default class Work extends Component {
                     <hr />
                 </div>
                 <div className="row">
-                    <hr />
                     <div className="media">
                         <div className="media" >
                             <div className="col-md-4" style={style.textAlign}>
@@ -113,8 +110,8 @@ export default class Work extends Component {
                         </div>
                     </div>
                 </div>
-                <hr />
-                <p style={style.padding}><u>view more details in our terms and conditions.</u></p>
+               { /* <hr />
+                <p style={style.padding}><u>view more details in our terms and conditions.</u></p> */}
             </div>
         </section>
     )
