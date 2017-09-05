@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Download extends Component {
   render() {
     return (
-      <section classID="downloadApps" style={{background:'rgb(247, 247, 247)'}}>
+      <section id="downloadApps" style={{background:'rgb(247, 247, 247)'}}>
             <div className="download_container">
                 <div className="row">
                     <div className="download_heading_text center-content">

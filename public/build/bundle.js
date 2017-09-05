@@ -22750,8 +22750,8 @@ var Navigation = function (_Component) {
                                     null,
                                     _react2.default.createElement(
                                         'a',
-                                        { href: '#', className: '' },
-                                        'Work with Us'
+                                        { href: 'https://www.facebook.com/goZerojet/', target: '_blank', className: '' },
+                                        'Contact Us'
                                     )
                                 ),
                                 _react2.default.createElement(
@@ -22759,8 +22759,8 @@ var Navigation = function (_Component) {
                                     null,
                                     _react2.default.createElement(
                                         'a',
-                                        { href: 'https://www.facebook.com/goZerojet/', target: '_blank', className: '' },
-                                        'Contact Us'
+                                        { href: '' },
+                                        _react2.default.createElement('i', { className: 'fa fa-facebook' })
                                     )
                                 )
                             )
@@ -23026,7 +23026,7 @@ var Download = function (_Component) {
         value: function render() {
             return _react2.default.createElement(
                 'section',
-                { classID: 'downloadApps', style: { background: 'rgb(247, 247, 247)' } },
+                { id: 'downloadApps', style: { background: 'rgb(247, 247, 247)' } },
                 _react2.default.createElement(
                     'div',
                     { className: 'download_container' },
@@ -23085,7 +23085,7 @@ exports.default = Download;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -23103,74 +23103,47 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Footer = function (_Component) {
-    _inherits(Footer, _Component);
+  _inherits(Footer, _Component);
 
-    function Footer() {
-        _classCallCheck(this, Footer);
+  function Footer() {
+    _classCallCheck(this, Footer);
 
-        return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
-    }
+    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+  }
 
-    _createClass(Footer, [{
-        key: "render",
-        value: function render() {
-            return _react2.default.createElement(
-                "footer",
-                { id: "footer", className: "center-content" },
+  _createClass(Footer, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "footer",
+        { className: "footer-container center-content" },
+        _react2.default.createElement(
+          "div",
+          { className: "row" },
+          _react2.default.createElement(
+            "div",
+            { className: "col-md-12" },
+            _react2.default.createElement(
+              "div",
+              { className: "copyright_text" },
+              _react2.default.createElement(
+                "p",
+                { className: " wow zoomIn", "data-wow-duration": "1s" },
                 _react2.default.createElement(
-                    "div",
-                    { className: "container" },
-                    _react2.default.createElement(
-                        "div",
-                        { className: "row" },
-                        _react2.default.createElement(
-                            "div",
-                            { className: "col-md-12 col-sm-12" },
-                            _react2.default.createElement(
-                                "div",
-                                { className: "socail_bookmark" },
-                                _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("i", { className: "fa fa-facebook" })
-                                ),
-                                _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("i", { className: "fa fa-linkedin" })
-                                ),
-                                _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("i", { className: "fa fa-instagram" })
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "div",
-                            { className: "col-md-12 col-sm-12" },
-                            _react2.default.createElement(
-                                "div",
-                                { className: "copyright_text" },
-                                _react2.default.createElement(
-                                    "p",
-                                    { className: " wow zoomIn", "data-wow-duration": "1s" },
-                                    _react2.default.createElement(
-                                        "a",
-                                        { href: "http://zerojet.com" },
-                                        "Zerojet"
-                                    ),
-                                    "| All Rights Reserved"
-                                )
-                            )
-                        )
-                    )
-                )
-            );
-        }
-    }]);
+                  "a",
+                  { href: "http://zerojet.com" },
+                  "Zerojet"
+                ),
+                " 2017 All Rights Reserved"
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
 
-    return Footer;
+  return Footer;
 }(_react.Component);
 
 exports.default = Footer;
@@ -23203,7 +23176,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var style = {
   padding: {
     padding: '20px',
-    color: '#FFFFFF'
+    color: '#FFFFFF',
+    fontFamily: 'Open Sans'
   }
 };
 

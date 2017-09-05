@@ -4,7 +4,8 @@ import React, { Component } from 'react'
 const style = {
   padding: {
     padding: '20px',
-    color: '#FFFFFF'
+    color: '#FFFFFF',
+    fontFamily: 'Open Sans'
   }
 }
 
