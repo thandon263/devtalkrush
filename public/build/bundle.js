@@ -9770,6 +9770,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var style = {
+  banner: {
+    position: 'relative',
+    top: '10px'
+  }
+};
+
 var App = function (_Component) {
   _inherits(App, _Component);
 
@@ -9787,7 +9794,36 @@ var App = function (_Component) {
         null,
         _react2.default.createElement(_index.Navigation, null),
         _react2.default.createElement(_index.Header, null),
-        _react2.default.createElement(_index.About, null),
+        _react2.default.createElement(_index.About, {
+          className: 'cd-timeline-img cd-movie',
+          image: '/images/dollar-symbol.svg',
+          title: 'Pay the security deposit.',
+          content: 'A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners.'
+        }),
+        _react2.default.createElement(_index.About, {
+          className: 'cd-timeline-img cd-location',
+          image: '/images/airplane-flight.svg',
+          title: 'Fly.',
+          content: 'Use the ZeroJet app to reserve flight to a chosen destination up to the airport and return.'
+        }),
+        _react2.default.createElement(_index.About, {
+          className: 'cd-timeline-img cd-picture',
+          image: '/images/group.svg',
+          title: 'Spend with ZeroJet Partners.',
+          content: 'Spend as little as $500 on food, accomodation, transportation, activities and event options offered by ZeroJet partners at your destination.'
+        }),
+        _react2.default.createElement(_index.About, {
+          className: 'cd-timeline-img cd-fly',
+          image: '/images/home.svg',
+          title: 'Come back home.',
+          content: 'Fly back to your city of origin (This is optional).'
+        }),
+        _react2.default.createElement(_index.About, {
+          className: 'cd-timeline-img cd-guarantee',
+          image: '/images/guarantee-price.svg',
+          title: 'Best Price Guarantee.',
+          content: 'We guarantee that all ZeroJet partner prices match or beat our competitors prices.'
+        }),
         _react2.default.createElement(_index.Download, null),
         _react2.default.createElement(_index.FooterSection, null),
         _react2.default.createElement(_index.Footer, null)
@@ -9799,6 +9835,18 @@ var App = function (_Component) {
 }(_react.Component);
 
 _reactDom2.default.render(_react2.default.createElement(App, null), document.getElementById('root'));
+
+/*<About 
+  title='Download the application.'>
+  <div className="col-md-4">
+    <a href="#"><img className="media-object" width="150" src="images/google-play.png" alt="simple"/></a>
+    <div className="media-alt" style={style.banner}><code>Limited public Beta ~ 2000 spot per City</code></div>
+  </div>
+  <div className="col-md-4">
+    <a href="#"><img src="images/notification-icon.png" width='50' alt="notification icon."/></a>
+    <div className="media-alt" style={style.banner}><code>Notify me of iOS Launch.</code></div>
+  </div>
+</About>*/
 
 /***/ }),
 /* 83 */
@@ -22776,10 +22824,19 @@ var style = {
 var Work = function (_Component) {
     _inherits(Work, _Component);
 
-    function Work() {
+    function Work(props) {
         _classCallCheck(this, Work);
 
-        return _possibleConstructorReturn(this, (Work.__proto__ || Object.getPrototypeOf(Work)).apply(this, arguments));
+        var _this = _possibleConstructorReturn(this, (Work.__proto__ || Object.getPrototypeOf(Work)).call(this, props));
+
+        _this.state = {
+            picture: props.picture,
+            movie: props.movie,
+            location: props.location,
+            title: props.title,
+            content: props.content
+        };
+        return _this;
     }
 
     _createClass(Work, [{
@@ -22787,232 +22844,42 @@ var Work = function (_Component) {
         value: function render() {
             return _react2.default.createElement(
                 'section',
-                { id: 'works', className: 'center-content' },
+                { classID: 'cd-timeline', className: 'cd-container right' },
                 _react2.default.createElement(
                     'div',
-                    { className: 'container' },
+                    { className: 'cd-timeline-block' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'row' },
+                        { className: this.props.className },
+                        _react2.default.createElement('img', { src: this.props.image, alt: 'Picture' })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'cd-timeline-content' },
                         _react2.default.createElement(
-                            'h1',
+                            'h2',
                             null,
-                            'How It Works'
+                            this.state.title
                         ),
-                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
-                            'div',
-                            { className: 'media' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'media' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4' },
-                                    _react2.default.createElement(
-                                        'h3',
-                                        null,
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Download the application.'
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4' },
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: '#' },
-                                        _react2.default.createElement('img', { className: 'media-object', width: '150', src: 'images/google-play.png', alt: 'simple' })
-                                    ),
-                                    _react2.default.createElement(
-                                        'div',
-                                        { className: 'media-alt', style: style.banner },
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Limited public Beta ~ 2000 spot per City'
-                                        )
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4' },
-                                    _react2.default.createElement(
-                                        'a',
-                                        { href: '#' },
-                                        _react2.default.createElement('img', { src: 'images/notification-icon.png', width: '50', alt: 'notification icon.' })
-                                    ),
-                                    _react2.default.createElement(
-                                        'div',
-                                        { className: 'media-alt', style: style.banner },
-                                        _react2.default.createElement(
-                                            'code',
-                                            null,
-                                            'Notify me of iOS Launch.'
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'row' },
-                        _react2.default.createElement('hr', null),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'media' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'media' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4', style: style.textAlign },
-                                    _react2.default.createElement(
-                                        'h3',
-                                        null,
-                                        'Pay the security deposit.'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-8', style: style.textAlignLeft },
-                                    _react2.default.createElement(
-                                        'p',
-                                        null,
-                                        'A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners.'
-                                    )
-                                )
-                            )
-                        )
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'row' },
-                        _react2.default.createElement('hr', null),
-                        _react2.default.createElement(
-                            'div',
-                            { className: 'media' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'media' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4', style: style.textAlign },
-                                    _react2.default.createElement(
-                                        'h3',
-                                        null,
-                                        'Fly.'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-8', style: style.textAlignLeft },
-                                    _react2.default.createElement(
-                                        'p',
-                                        null,
-                                        'Use the ZeroJet app to reserve flight to a chosen destination up to the airport and return.'
-                                    )
-                                )
-                            )
+                            'p',
+                            null,
+                            this.state.content
                         ),
-                        _react2.default.createElement('hr', null)
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'row' },
-                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
                             'div',
-                            { className: 'media' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'media' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4', style: style.textAlign },
-                                    _react2.default.createElement(
-                                        'h3',
-                                        null,
-                                        'Spend with ZeroJet Partners.'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-8', style: style.textAlignLeft },
-                                    _react2.default.createElement(
-                                        'p',
-                                        null,
-                                        'Spend as little as $500 on food, accomodation, transportation, activities and event options offered by ZeroJet partners at your destination.'
-                                    )
-                                )
-                            )
+                            null,
+                            this.props.children
                         ),
-                        _react2.default.createElement('hr', null)
-                    ),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'row' },
-                        _react2.default.createElement('hr', null),
                         _react2.default.createElement(
-                            'div',
-                            { className: 'media' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'media' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4', style: style.textAlign },
-                                    _react2.default.createElement(
-                                        'h3',
-                                        null,
-                                        'Come back home.'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-8', style: style.textAlignLeft },
-                                    _react2.default.createElement(
-                                        'p',
-                                        null,
-                                        'Fly back to your city of origin (This is optional).'
-                                    )
-                                )
-                            )
-                        )
-                    ),
-                    _react2.default.createElement('hr', null),
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'row' },
+                            'a',
+                            { href: '#0', className: 'cd-read-more' },
+                            'Read more'
+                        ),
                         _react2.default.createElement(
-                            'div',
-                            { className: 'media' },
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'media' },
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-4', style: style.textAlign },
-                                    _react2.default.createElement(
-                                        'h3',
-                                        null,
-                                        'Best Price Guarantee.'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'col-md-8', style: style.textAlignLeft },
-                                    _react2.default.createElement(
-                                        'p',
-                                        null,
-                                        'We guarantee that all ZeroJet partner prices match or beat our competitors prices.'
-                                    )
-                                )
-                            )
+                            'span',
+                            { className: 'cd-date' },
+                            'Jan 14'
                         )
                     )
                 )
@@ -23022,6 +22889,101 @@ var Work = function (_Component) {
 
     return Work;
 }(_react.Component);
+
+/*<section id="works" className="center-content">
+            <div className="container">
+                <div className="row">
+                <h1>How It Works</h1>
+                  <hr/>
+                    <div className="media">
+                        <div className="media">
+                            <div className="col-md-4">
+                                <h3><code>Download the application.</code></h3>
+                            </div>
+                            <div className="col-md-4">
+                                <a href="#"><img className="media-object" width="150" src="images/google-play.png" alt="simple"/></a>
+                                <div className="media-alt" style={style.banner}><code>Limited public Beta ~ 2000 spot per City</code></div>
+                            </div>
+                            <div className="col-md-4">
+                                <a href="#"><img src="images/notification-icon.png" width='50' alt="notification icon."/></a>
+                                <div className="media-alt" style={style.banner}><code>Notify me of iOS Launch.</code></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <hr />
+                    <div className="media">
+                        <div className="media" >
+                            <div className="col-md-4" style={style.textAlign}>
+                                <h3>Pay the security deposit.</h3>
+                            </div>
+                            <div className="col-md-8" style={style.textAlignLeft}>
+                                <p>A $99 security deposit is required of all the members. This covers the cost of the flight if members do not meet their pledged spending with ZeroJet partners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className="row">
+                    <hr />
+                    <div className="media">
+                        <div className="media" >
+                            <div className="col-md-4" style={style.textAlign}>
+                                <h3>Fly.</h3>
+                            </div>
+                            <div className="col-md-8" style={style.textAlignLeft}>
+                                <p>Use the ZeroJet app to reserve flight to a chosen destination up to the airport and return.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div className="row">
+                    <hr />    
+                    <div className="media">
+                        <div className="media" >
+                            <div className="col-md-4" style={style.textAlign}>
+                                <h3>Spend with ZeroJet Partners.</h3>
+                            </div>
+                            <div className="col-md-8" style={style.textAlignLeft}>
+                                <p>Spend as little as $500 on food, accomodation, transportation, activities and event options offered by ZeroJet partners at your destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div className="row">
+                    <hr />
+                    <div className="media">
+                        <div className="media" >
+                            <div className="col-md-4" style={style.textAlign}>
+                                <h3>Come back home.</h3>
+                            </div>
+                            <div className="col-md-8" style={style.textAlignLeft}>
+                                <p>Fly back to your city of origin (This is optional).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div className="row">
+
+                    <div className="media">
+                        <div className="media" >
+                            <div className="col-md-4" style={style.textAlign}>
+                                <h3>Best Price Guarantee.</h3>
+                            </div>
+                            <div className="col-md-8" style={style.textAlignLeft}>
+                                <p>We guarantee that all ZeroJet partner prices match or beat our competitors prices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        */
+
 
 exports.default = Work;
 
@@ -23060,47 +23022,47 @@ var Download = function (_Component) {
     }
 
     _createClass(Download, [{
-        key: "render",
+        key: 'render',
         value: function render() {
             return _react2.default.createElement(
-                "section",
-                { id: "downloadApps" },
+                'section',
+                { classID: 'downloadApps', style: { background: 'rgb(247, 247, 247)' } },
                 _react2.default.createElement(
-                    "div",
-                    { className: "container" },
+                    'div',
+                    { className: 'download_container' },
                     _react2.default.createElement(
-                        "div",
-                        { className: "row" },
+                        'div',
+                        { className: 'row' },
                         _react2.default.createElement(
-                            "div",
-                            { className: "download_heading_text center-content" },
-                            _react2.default.createElement("img", { src: "images/zerojet-logo.jpeg", width: "300", alt: "zerojet logo" }),
+                            'div',
+                            { className: 'download_heading_text center-content' },
+                            _react2.default.createElement('img', { src: 'images/zerojet-logo.jpeg', width: '300', alt: 'zerojet logo', style: { marginTop: '80px' } }),
                             _react2.default.createElement(
-                                "h1",
+                                'h4',
                                 null,
-                                "Download now:"
+                                'Download now:'
                             ),
                             _react2.default.createElement(
-                                "span",
-                                { className: "banner", "data-wow-duration": "1s" },
+                                'span',
+                                { className: 'banner', 'data-wow-duration': '1s' },
                                 _react2.default.createElement(
-                                    "code",
+                                    'code',
                                     null,
-                                    "Coming Spring 2018 (AppStore)"
+                                    'Coming Spring 2018 (AppStore)'
                                 )
                             ),
                             _react2.default.createElement(
-                                "div",
-                                { className: "down_text_des wow fadeInUp", "data-wow-duration": "1.5s" },
+                                'div',
+                                { className: 'down_text_des wow fadeInUp', 'data-wow-duration': '1.5s' },
                                 _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("img", { src: "images/Google_Play_Logo_2855.png", width: "300", alt: "" })
+                                    'a',
+                                    { href: '' },
+                                    _react2.default.createElement('img', { src: 'images/Google_Play_Logo_2855.png', width: '300', alt: '' })
                                 ),
                                 _react2.default.createElement(
-                                    "a",
-                                    { href: "" },
-                                    _react2.default.createElement("img", { src: "images/apple_appStore_logo.png", width: "300", alt: "" })
+                                    'a',
+                                    { href: '' },
+                                    _react2.default.createElement('img', { src: 'images/apple_appStore_logo.png', width: '300', alt: '' })
                                 )
                             )
                         )

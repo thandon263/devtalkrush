@@ -21,9 +21,40 @@ const style = {
 }
 
 export default class Work extends Component {
+  constructor(props) {
+      super(props)
+      this.state = {
+        picture: props.picture,
+        movie: props.movie,
+        location: props.location,
+        title: props.title,
+        content: props.content
+      }
+  }
+
   render() {
     return (
-        <section id="works" className="center-content">
+        <section classID="cd-timeline" className="cd-container right">
+            <div className="cd-timeline-block">
+                <div className={this.props.className}>
+                    <img src={this.props.image} alt="Picture"/>
+                </div>
+
+                <div className="cd-timeline-content">
+                    <h2>{this.state.title}</h2>
+                    <p>{this.state.content}</p>
+                    <div>{this.props.children}</div>
+                    <a href="#0" className="cd-read-more">Read more</a>
+                    <span className="cd-date">Jan 14</span>
+                </div>
+            </div>
+        </section>
+    )
+  }
+}
+
+
+/*<section id="works" className="center-content">
             <div className="container">
                 <div className="row">
                 <h1>How It Works</h1>
@@ -113,10 +144,6 @@ export default class Work extends Component {
                         </div>
                     </div>
                 </div>
-               { /* <hr />
-                <p style={style.padding}><u>view more details in our terms and conditions.</u></p> */}
             </div>
         </section>
-    )
-  }
-}
+        */
