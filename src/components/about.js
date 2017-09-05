@@ -45,7 +45,7 @@ export default class Work extends Component {
                     <p>{this.state.content}</p>
                     <div>{this.props.children}</div>
                     <a href="#0" className="cd-read-more">Read more</a>
-                    <span className="cd-date">Jan 14</span>
+                    <span className="cd-date">{this.state.title}</span>
                 </div>
             </div>
         </section>

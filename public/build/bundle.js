@@ -22759,7 +22759,7 @@ var Navigation = function (_Component) {
                                     null,
                                     _react2.default.createElement(
                                         'a',
-                                        { href: '' },
+                                        { href: 'https://www.facebook.com/goZerojet/' },
                                         _react2.default.createElement('i', { className: 'fa fa-facebook' })
                                     )
                                 )
@@ -22879,7 +22879,7 @@ var Work = function (_Component) {
                         _react2.default.createElement(
                             'span',
                             { className: 'cd-date' },
-                            'Jan 14'
+                            this.state.title
                         )
                     )
                 )
@@ -23085,7 +23085,7 @@ exports.default = Download;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -23103,47 +23103,88 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Footer = function (_Component) {
-  _inherits(Footer, _Component);
+	_inherits(Footer, _Component);
 
-  function Footer() {
-    _classCallCheck(this, Footer);
+	function Footer() {
+		_classCallCheck(this, Footer);
 
-    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
-  }
+		return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+	}
 
-  _createClass(Footer, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "footer",
-        { className: "footer-container center-content" },
-        _react2.default.createElement(
-          "div",
-          { className: "row" },
-          _react2.default.createElement(
-            "div",
-            { className: "col-md-12" },
-            _react2.default.createElement(
-              "div",
-              { className: "copyright_text" },
-              _react2.default.createElement(
-                "p",
-                { className: " wow zoomIn", "data-wow-duration": "1s" },
-                _react2.default.createElement(
-                  "a",
-                  { href: "http://zerojet.com" },
-                  "Zerojet"
-                ),
-                " 2017 All Rights Reserved"
-              )
-            )
-          )
-        )
-      );
-    }
-  }]);
+	_createClass(Footer, [{
+		key: "render",
+		value: function render() {
+			return _react2.default.createElement(
+				"footer",
+				null,
+				_react2.default.createElement(
+					"div",
+					{ className: "last-div" },
+					_react2.default.createElement(
+						"div",
+						{ className: "container" },
+						_react2.default.createElement(
+							"div",
+							{ className: "row" },
+							_react2.default.createElement(
+								"div",
+								{ className: "copyright" },
+								"\xA9 2017 Zerojet travel webpage",
+								_react2.default.createElement(
+									"div",
+									{ className: "credits" },
+									_react2.default.createElement(
+										"a",
+										{ href: "#" },
+										"Custom theme"
+									),
+									" by ",
+									_react2.default.createElement(
+										"a",
+										{ href: "http://zerojet.com/" },
+										"Zerojet Developers"
+									)
+								)
+							),
+							_react2.default.createElement(
+								"ul",
+								{ className: "social-network" },
+								_react2.default.createElement(
+									"li",
+									null,
+									_react2.default.createElement(
+										"a",
+										{ href: "https://www.facebook.com/goZerojet/", target: "_blank", "data-placement": "top", title: "Facebook" },
+										_react2.default.createElement("i", { className: "fa fa-facebook fa-1x" })
+									)
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									_react2.default.createElement(
+										"a",
+										{ href: "https://www.instagram.com/zerojet/", target: "_blank", "data-placement": "top", title: "Twitter" },
+										_react2.default.createElement("i", { className: "fa fa-instagram fa-1x" })
+									)
+								),
+								_react2.default.createElement(
+									"li",
+									null,
+									_react2.default.createElement(
+										"a",
+										{ href: "#", "data-placement": "top", title: "Google plus" },
+										_react2.default.createElement("i", { className: "fa fa-google-plus fa-1x" })
+									)
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	}]);
 
-  return Footer;
+	return Footer;
 }(_react.Component);
 
 exports.default = Footer;
@@ -23194,128 +23235,124 @@ var FooterSection = function (_Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'section',
-        { className: 'row' },
+        'footer',
+        null,
         _react2.default.createElement(
           'div',
-          { className: 'col-md-12 footer-section' },
+          { className: 'inner-footer' },
           _react2.default.createElement(
             'div',
-            { className: 'col-md-6 routes' },
-            _react2.default.createElement(
-              'h3',
-              { style: style.padding },
-              '2017 - 2018 public ',
-              _react2.default.createElement(
-                'code',
-                null,
-                'beta'
-              ),
-              ' routes'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Edmonton      - Vancouver'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Toronto       - Montreal'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Ottawa        - Toronto'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Montreal      - Niagara Falls'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Niagara Falls - Ottawa'
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'col-md-6' },
-            _react2.default.createElement(
-              'h3',
-              { style: style.padding },
-              '2018 Destinations'
-            ),
+            { className: 'container' },
             _react2.default.createElement(
               'div',
-              { className: 'row destination-list' },
+              { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-6' },
+                { className: 'col-md-4 f-about' },
                 _react2.default.createElement(
-                  'p',
-                  null,
-                  'New York'
+                  'a',
+                  { href: '/' },
+                  _react2.default.createElement(
+                    'h1',
+                    null,
+                    'Zerojet'
+                  )
                 ),
                 _react2.default.createElement(
                   'p',
                   null,
-                  'San Diego'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Orlando'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Philadelphia'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Los Angeles'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'San Francisco'
+                  'We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconscious. Our subconscious mind contains such power.'
                 )
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-md-6' },
+                { className: 'col-md-4 l-posts' },
                 _react2.default.createElement(
-                  'p',
+                  'h3',
+                  { className: 'widgetheading' },
+                  '2017 - 2018 Public beta Routes'
+                ),
+                _react2.default.createElement(
+                  'ul',
                   null,
-                  'Las Vegas'
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      'Edmonton - Vancouver'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      'Toronto - Montreal'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      'Ottawa - Toronto'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      'Montreal - Niagara Falls'
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      'Niagara Falls - Ottawa'
+                    )
+                  )
+                )
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'col-md-4 f-contact' },
+                _react2.default.createElement(
+                  'h3',
+                  { className: 'widgetheading' },
+                  'Stay in touch'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: '#' },
+                  _react2.default.createElement(
+                    'p',
+                    null,
+                    _react2.default.createElement('i', { className: 'fa fa-envelope' }),
+                    ' zerojet@gmail.com'
+                  )
                 ),
                 _react2.default.createElement(
                   'p',
                   null,
-                  'Boston'
+                  _react2.default.createElement('i', { className: 'fa fa-phone' }),
+                  '  +1 647 - Zerojetline'
                 ),
                 _react2.default.createElement(
                   'p',
                   null,
-                  'Atlanta'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Washington'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Phoenix'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'Chicago'
+                  _react2.default.createElement('i', { className: 'fa fa-home' }),
+                  ' Zerojet & Kazuwai  |  PO Box toronto North York, Toronto ',
+                  _react2.default.createElement('br', null),
+                  'Ontario *** Canada'
                 )
               )
             )
@@ -23329,6 +23366,40 @@ var FooterSection = function (_Component) {
 }(_react.Component);
 
 exports.default = FooterSection;
+
+// <section className="row">
+//           <div className="col-md-12 footer-section">         
+//             <div className="col-md-6 routes">
+//               <h3 style={style.padding}>2017 - 2018 public <code>beta</code> routes</h3>
+//               <p>Edmonton      - Vancouver</p>
+//               <p>Toronto       - Montreal</p>
+//               <p>Ottawa        - Toronto</p>
+//               <p>Montreal      - Niagara Falls</p>
+//               <p>Niagara Falls - Ottawa</p>
+//             </div>
+//             <div className="col-md-6">
+//               <h3 style={style.padding}>2018 Destinations</h3>
+//               <div className="row destination-list">
+//                 <div className="col-md-6">
+//                   <p>New York</p>
+//                   <p>San Diego</p>
+//                   <p>Orlando</p>
+//                   <p>Philadelphia</p>
+//                   <p>Los Angeles</p>
+//                   <p>San Francisco</p>
+//                 </div>
+//                 <div className="col-md-6">
+//                   <p>Las Vegas</p>
+//                   <p>Boston</p>
+//                   <p>Atlanta</p>
+//                   <p>Washington</p>
+//                   <p>Phoenix</p>
+//                   <p>Chicago</p>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </section>
 
 /***/ })
 /******/ ]);
