@@ -31,7 +31,6 @@ export default class Navigation extends Component {
                     </div>
                     <div className="collapse navbar-collapse">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><a href="#works" className="">How it works</a></li>
                             <li><a href="#downloadApps" className="">Download</a></li>
                             <li><a href="/faq" className="">FAQ</a></li>
                             <li><a href="https://www.facebook.com/goZerojet/" target="_blank" className="">Contact Us</a></li>

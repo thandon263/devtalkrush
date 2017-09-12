@@ -34,17 +34,16 @@ export default class Work extends Component {
 
   render() {
     return (
-        <section classID="cd-timeline" className="cd-container right">
+        <section className="cd-container right">
             <div className="cd-timeline-block">
                 <div className={this.props.className}>
                     <img src={this.props.image} alt="Picture"/>
                 </div>
 
-                <div className="cd-timeline-content">
+                <div id="#works" className="cd-timeline-content">
                     <h2>{this.state.title}</h2>
                     <p>{this.state.content}</p>
                     <div>{this.props.children}</div>
-                    <a href="#0" className="cd-read-more">Read more</a>
                     <span className="cd-date">{this.state.title}</span>
                 </div>
             </div>

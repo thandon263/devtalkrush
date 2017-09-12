@@ -212,14 +212,14 @@ section:nth-of-type(odd) {
 /* Footer Content styles  */
 
 footer {
-  background: #24325D;
+  background: #00007A;
 }
 
 .inner-footer {
   padding: 100px 0;
 }
 .inner-footer  ul li,a  {
-	 list-style:none;
+   list-style:none;
 }
 .widgetheading {
   font-size: 24px;
@@ -241,14 +241,14 @@ footer {
 }
 .f-about p {
   font-size: 14px;
-  color: #8a8d94;
+  color: #fefefe;
 }
 .l-posts h3 {
 	margin-left:40px;
 }
 .l-posts li a {
   font-size: 14px;
-  color: #8a8d94;
+  color: #FEFEFE;
   margin: 0;
   font-weight: 300;
   border-bottom: 1px solid #2c2d2e;
@@ -257,13 +257,10 @@ footer {
   display: block;
 }
 
-.l-posts li a:hover  {
-  color: #fff;
-}
 
 .f-contact p {
   font-size: 14px;
-  color: #8a8d94;
+  color: #FEFEFE;
   margin: 0;
   
   font-weight: 300;
@@ -274,6 +271,10 @@ footer {
   color: #56595f;
   font-size: 16px;
   margin-right: 10px;
+}
+
+.f-contact ul {
+  display: flex;
 }
 
 .f-contact a:hover p{

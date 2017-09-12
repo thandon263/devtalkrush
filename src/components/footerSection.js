@@ -18,8 +18,7 @@ class FooterSection extends Component {
             <div className="row">
               <div className="col-md-4 f-about">
                 <a href="/"><h1>Zerojet</h1></a>
-                <p>We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconscious. Our subconscious mind contains such power.</p>
-                
+                <p></p>
               </div>
               <div className="col-md-4 l-posts">
                 <h3 className="widgetheading">2017 - 2018 Public beta Routes</h3>
@@ -33,11 +32,20 @@ class FooterSection extends Component {
               </div>
               <div className="col-md-4 f-contact">
                 <h3 className="widgetheading">Stay in touch</h3>
-                <a href="#"><p><i className="fa fa-envelope"></i> zerojet@gmail.com</p></a>
-                <p><i className="fa fa-phone"></i>  +1 647 - Zerojetline</p>
-                <p><i className="fa fa-home"></i> Zerojet & Kazuwai  |  PO Box toronto 
-                  North York, Toronto <br/>
-                  Ontario *** Canada</p>
+                <ul>
+                  <li><a href="#"><p>New York</p></a></li>
+                  <li><a href="#"><p>Chicago</p></a></li>
+                  <li><a href="#"><p>Atlanta</p></a></li>
+                  <li><a href="#"><p>Florida</p></a></li>
+                  <li><a href="#"><p>Orlando</p></a></li>
+                </ul>
+                <ul>
+                  <li><a href="#"><p>New York</p></a></li>
+                  <li><a href="#"><p>Chicago</p></a></li>
+                  <li><a href="#"><p>Atlanta</p></a></li>
+                  <li><a href="#"><p>Florida</p></a></li>
+                  <li><a href="#"><p>Orlando</p></a></li>
+                </ul>
               </div>
             </div>
           </div>

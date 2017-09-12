@@ -22723,15 +22723,6 @@ var Navigation = function (_Component) {
                                     null,
                                     _react2.default.createElement(
                                         'a',
-                                        { href: '#works', className: '' },
-                                        'How it works'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'li',
-                                    null,
-                                    _react2.default.createElement(
-                                        'a',
                                         { href: '#downloadApps', className: '' },
                                         'Download'
                                     )
@@ -22844,7 +22835,7 @@ var Work = function (_Component) {
         value: function render() {
             return _react2.default.createElement(
                 'section',
-                { classID: 'cd-timeline', className: 'cd-container right' },
+                { className: 'cd-container right' },
                 _react2.default.createElement(
                     'div',
                     { className: 'cd-timeline-block' },
@@ -22855,7 +22846,7 @@ var Work = function (_Component) {
                     ),
                     _react2.default.createElement(
                         'div',
-                        { className: 'cd-timeline-content' },
+                        { id: '#works', className: 'cd-timeline-content' },
                         _react2.default.createElement(
                             'h2',
                             null,
@@ -22870,11 +22861,6 @@ var Work = function (_Component) {
                             'div',
                             null,
                             this.props.children
-                        ),
-                        _react2.default.createElement(
-                            'a',
-                            { href: '#0', className: 'cd-read-more' },
-                            'Read more'
                         ),
                         _react2.default.createElement(
                             'span',
@@ -23026,7 +23012,7 @@ var Download = function (_Component) {
         value: function render() {
             return _react2.default.createElement(
                 'section',
-                { id: 'downloadApps', style: { background: 'rgb(247, 247, 247)' } },
+                { style: { background: 'rgb(247, 247, 247)' } },
                 _react2.default.createElement(
                     'div',
                     { className: 'download_container' },
@@ -23036,7 +23022,7 @@ var Download = function (_Component) {
                         _react2.default.createElement(
                             'div',
                             { className: 'download_heading_text center-content' },
-                            _react2.default.createElement('img', { src: 'images/zerojet-logo.jpeg', width: '300', alt: 'zerojet logo', style: { marginTop: '80px' } }),
+                            _react2.default.createElement('img', { id: 'downloadApps', src: 'images/zerojet-logo.jpeg', width: '300', alt: 'zerojet logo', style: { marginTop: '80px' } }),
                             _react2.default.createElement(
                                 'h4',
                                 null,
@@ -23258,11 +23244,7 @@ var FooterSection = function (_Component) {
                     'Zerojet'
                   )
                 ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind, the hidden and mysterious subconscious. Our subconscious mind contains such power.'
-                )
+                _react2.default.createElement('p', null)
               ),
               _react2.default.createElement(
                 'div',
@@ -23331,28 +23313,142 @@ var FooterSection = function (_Component) {
                   'Stay in touch'
                 ),
                 _react2.default.createElement(
-                  'a',
-                  { href: '#' },
+                  'ul',
+                  null,
                   _react2.default.createElement(
-                    'p',
+                    'li',
                     null,
-                    _react2.default.createElement('i', { className: 'fa fa-envelope' }),
-                    ' zerojet@gmail.com'
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'New York'
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Chicago'
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Atlanta'
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Florida'
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Orlando'
+                      )
+                    )
                   )
                 ),
                 _react2.default.createElement(
-                  'p',
+                  'ul',
                   null,
-                  _react2.default.createElement('i', { className: 'fa fa-phone' }),
-                  '  +1 647 - Zerojetline'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  _react2.default.createElement('i', { className: 'fa fa-home' }),
-                  ' Zerojet & Kazuwai  |  PO Box toronto North York, Toronto ',
-                  _react2.default.createElement('br', null),
-                  'Ontario *** Canada'
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'New York'
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Chicago'
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Atlanta'
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Florida'
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    'li',
+                    null,
+                    _react2.default.createElement(
+                      'a',
+                      { href: '#' },
+                      _react2.default.createElement(
+                        'p',
+                        null,
+                        'Orlando'
+                      )
+                    )
+                  )
                 )
               )
             )
