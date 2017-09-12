@@ -23313,139 +23313,87 @@ var FooterSection = function (_Component) {
                   'Stay in touch'
                 ),
                 _react2.default.createElement(
-                  'ul',
+                  'div',
                   null,
                   _react2.default.createElement(
-                    'li',
+                    'ul',
                     null,
                     _react2.default.createElement(
-                      'a',
-                      { href: '#' },
+                      'li',
+                      null,
                       _react2.default.createElement(
-                        'p',
-                        null,
-                        'New York'
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'New York'
+                        )
                       )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
+                    ),
                     _react2.default.createElement(
-                      'a',
-                      { href: '#' },
+                      'li',
+                      null,
                       _react2.default.createElement(
-                        'p',
-                        null,
-                        'Chicago'
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'Chicago'
+                        )
                       )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
+                    ),
                     _react2.default.createElement(
-                      'a',
-                      { href: '#' },
+                      'li',
+                      null,
                       _react2.default.createElement(
-                        'p',
-                        null,
-                        'Atlanta'
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'Atlanta'
+                        )
                       )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
+                    ),
                     _react2.default.createElement(
-                      'a',
-                      { href: '#' },
+                      'li',
+                      null,
                       _react2.default.createElement(
-                        'p',
-                        null,
-                        'Florida'
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'Phoenix'
+                        )
                       )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
+                    ),
                     _react2.default.createElement(
-                      'a',
-                      { href: '#' },
+                      'li',
+                      null,
                       _react2.default.createElement(
-                        'p',
-                        null,
-                        'Orlando'
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'Orlando'
+                        )
                       )
-                    )
-                  )
-                ),
-                _react2.default.createElement(
-                  'ul',
-                  null,
-                  _react2.default.createElement(
-                    'li',
-                    null,
+                    ),
                     _react2.default.createElement(
-                      'a',
-                      { href: '#' },
+                      'li',
+                      null,
                       _react2.default.createElement(
-                        'p',
-                        null,
-                        'New York'
-                      )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    _react2.default.createElement(
-                      'a',
-                      { href: '#' },
-                      _react2.default.createElement(
-                        'p',
-                        null,
-                        'Chicago'
-                      )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    _react2.default.createElement(
-                      'a',
-                      { href: '#' },
-                      _react2.default.createElement(
-                        'p',
-                        null,
-                        'Atlanta'
-                      )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    _react2.default.createElement(
-                      'a',
-                      { href: '#' },
-                      _react2.default.createElement(
-                        'p',
-                        null,
-                        'Florida'
-                      )
-                    )
-                  ),
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    _react2.default.createElement(
-                      'a',
-                      { href: '#' },
-                      _react2.default.createElement(
-                        'p',
-                        null,
-                        'Orlando'
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'Las Vegas'
+                        )
                       )
                     )
                   )
@@ -23463,39 +23411,15 @@ var FooterSection = function (_Component) {
 
 exports.default = FooterSection;
 
-// <section className="row">
-//           <div className="col-md-12 footer-section">         
-//             <div className="col-md-6 routes">
-//               <h3 style={style.padding}>2017 - 2018 public <code>beta</code> routes</h3>
-//               <p>Edmonton      - Vancouver</p>
-//               <p>Toronto       - Montreal</p>
-//               <p>Ottawa        - Toronto</p>
-//               <p>Montreal      - Niagara Falls</p>
-//               <p>Niagara Falls - Ottawa</p>
-//             </div>
-//             <div className="col-md-6">
-//               <h3 style={style.padding}>2018 Destinations</h3>
-//               <div className="row destination-list">
-//                 <div className="col-md-6">
-//                   <p>New York</p>
-//                   <p>San Diego</p>
-//                   <p>Orlando</p>
-//                   <p>Philadelphia</p>
-//                   <p>Los Angeles</p>
-//                   <p>San Francisco</p>
-//                 </div>
-//                 <div className="col-md-6">
-//                   <p>Las Vegas</p>
-//                   <p>Boston</p>
-//                   <p>Atlanta</p>
-//                   <p>Washington</p>
-//                   <p>Phoenix</p>
-//                   <p>Chicago</p>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </section>
+// <div>
+//   <ul>
+//     <li><a href="#"><p>San Diego</p></a></li>
+//     <li><a href="#"><p>Philadelphia</p></a></li>
+//     <li><a href="#"><p>San Francisco</p></a></li>
+//     <li><a href="#"><p>Washington</p></a></li>
+//     <li><a href="#"><p>Boston</p></a></li>
+//   </ul>
+// </div>
 
 /***/ })
 /******/ ]);

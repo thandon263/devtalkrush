@@ -274,7 +274,12 @@ footer {
 }
 
 .f-contact ul {
-  display: flex;
+  display: inline-block;  
+}
+
+.f-contact div {
+  position: relative;
+  right: 12px;
 }
 
 .f-contact a:hover p{
@@ -908,6 +913,7 @@ Main components
 .cd-timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
+  font-size: 28px;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
