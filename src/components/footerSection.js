@@ -31,8 +31,8 @@ class FooterSection extends Component {
                 </ul>
               </div>
               <div className="col-md-4 f-contact">
-                <h3 className="widgetheading">Stay in touch</h3>
-                <div>
+                <h3 className="widgetheading">Public Routes Early 2018</h3>
+                <div className="col-md-6">
                   <ul>
                     <li><a href="#"><p>New York</p></a></li>
                     <li><a href="#"><p>Chicago</p></a></li>
@@ -40,6 +40,15 @@ class FooterSection extends Component {
                     <li><a href="#"><p>Phoenix</p></a></li>
                     <li><a href="#"><p>Orlando</p></a></li>
                     <li><a href="#"><p>Las Vegas</p></a></li>
+                  </ul>
+                </div>
+                <div className="col-md-6">
+                  <ul>
+                    <li><a href="#"><p>San Diego</p></a></li>
+                    <li><a href="#"><p>Philadelphia</p></a></li>
+                    <li><a href="#"><p>San Francisco</p></a></li>
+                    <li><a href="#"><p>Washington</p></a></li>
+                    <li><a href="#"><p>Boston</p></a></li>
                   </ul>
                 </div>
               </div>

@@ -44,7 +44,6 @@ export default class Work extends Component {
                     <h2>{this.state.title}</h2>
                     <p>{this.state.content}</p>
                     <div>{this.props.children}</div>
-                    <span className="cd-date">{this.state.title}</span>
                 </div>
             </div>
         </section>

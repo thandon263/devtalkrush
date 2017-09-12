@@ -70,7 +70,7 @@
         </div>
       </div>
 
-      <footer class="faq_footer">
+      <footer class="faq_footer" style="background: #E91E63">
         All Rights Reserved 
       </footer>
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

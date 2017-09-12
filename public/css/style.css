@@ -205,7 +205,7 @@ section:nth-of-type(odd) {
     width: 100%;
     height: 50px;
     line-height: 50px;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #E91E63;
     text-align: center;
 }
 
@@ -256,7 +256,6 @@ footer {
   margin-bottom: 10px;
   display: block;
 }
-
 
 .f-contact p {
   font-size: 14px;
@@ -904,7 +903,7 @@ Main components
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
+  font-size: 20px;
   font-size: 0.8125rem;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
@@ -940,17 +939,31 @@ Main components
   border: 7px solid transparent;
   border-right: 7px solid white;
 }
+
+@media only screen and (min-width: 480px) {
+  .cd-timeline-content h2 {
+    font-size: 12px;
+    font-size: 1.17rem;
+  }
+  .cd-timeline-content p {
+    font-size: 10px;
+  }
+  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
+    font-size: 10px;
+    font-size: 0.575rem;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
-    font-size: 20px;
+    font-size: 15px;
     font-size: 1.25rem;
   }
   .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 10px;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
+    font-size: 12px;
     font-size: 0.875rem;
   }
 }
@@ -1142,38 +1155,41 @@ Main components
 }
 
 /* Description Section CSS */
-#descriotion{}
+#description {}
+
 .main_description{
 	padding:130px 0px;
 }
 
 /* Second Description Section CSS */
 
-#description_second{}
+#description_second {}
+
 .main_description_second_contant{
 	padding:130px 0px;
 }
-/* Description Third */
-#description_third{}
 
-.main_des_third_contant{
+/* Description Third */
+#description_third {}
+
+.main_des_third_contant {
 	padding:130px 0px;
 }
 
 
 /* Apps Gallery Section */
-#apps_gallery{
+#apps_gallery {
 	background:#3C3852;
 	
 }
 
-.gallery_heading_text{
+.gallery_heading_text {
 	padding:60px 0px;
 }
-.gallery_heading_text h1{
+.gallery_heading_text h1 {
 	color:#fff;
 }
-.gallery_heading_text p{
+.gallery_heading_text p {
 	color:#fff;
 }
 

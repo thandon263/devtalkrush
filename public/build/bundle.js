@@ -22861,11 +22861,6 @@ var Work = function (_Component) {
                             'div',
                             null,
                             this.props.children
-                        ),
-                        _react2.default.createElement(
-                            'span',
-                            { className: 'cd-date' },
-                            this.state.title
                         )
                     )
                 )
@@ -23310,11 +23305,11 @@ var FooterSection = function (_Component) {
                 _react2.default.createElement(
                   'h3',
                   { className: 'widgetheading' },
-                  'Stay in touch'
+                  'Public Routes Early 2018'
                 ),
                 _react2.default.createElement(
                   'div',
-                  null,
+                  { className: 'col-md-6' },
                   _react2.default.createElement(
                     'ul',
                     null,
@@ -23393,6 +23388,79 @@ var FooterSection = function (_Component) {
                           'p',
                           null,
                           'Las Vegas'
+                        )
+                      )
+                    )
+                  )
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'col-md-6' },
+                  _react2.default.createElement(
+                    'ul',
+                    null,
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      _react2.default.createElement(
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'San Diego'
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      _react2.default.createElement(
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'Philadelphia'
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      _react2.default.createElement(
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'San Francisco'
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      _react2.default.createElement(
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'Washington'
+                        )
+                      )
+                    ),
+                    _react2.default.createElement(
+                      'li',
+                      null,
+                      _react2.default.createElement(
+                        'a',
+                        { href: '#' },
+                        _react2.default.createElement(
+                          'p',
+                          null,
+                          'Boston'
                         )
                       )
                     )
