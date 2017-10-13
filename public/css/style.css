@@ -904,15 +904,16 @@ Main components
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 20px;
-  font-size: 0.8125rem;
+  font-size: 0.8215rem;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
 }
 .cd-timeline-content p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 1em 0;
   line-height: 1.6;
-  font-size: 28px;
+  font-size: 40px;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
@@ -943,7 +944,7 @@ Main components
 @media only screen and (min-width: 480px) {
   .cd-timeline-content h2 {
     font-size: 12px;
-    font-size: 1.17rem;
+    font-size: 0.17rem;
   }
   .cd-timeline-content p {
     font-size: 10px;
@@ -960,7 +961,7 @@ Main components
     font-size: 1.25rem;
   }
   .cd-timeline-content p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 12px;
