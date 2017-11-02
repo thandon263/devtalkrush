@@ -121,8 +121,6 @@
     </div>
     <!-- End of the Slider -->
 
-    <div id="root"></div>
-
 			<header>
 					<div class="sticky-nav">
 						<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
@@ -479,7 +477,7 @@
 
 		<!-- End of the content in the page for now -->
 
-
+  	<div id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
