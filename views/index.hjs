@@ -507,16 +507,16 @@
     <!-- Game over -->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="./_include/js/bootstrap.min.js"></script>
-    <script src="./_include/js/supersized.3.2.7.min.js"></script>
-    <script src="./_include/js/waypoints.js"></script>
-    <script src="./_include/js/waypoints-sticky.js"></script>
-    <script src="./_include/js/jquery.isotope.js"></script>
-    <script src="./_include/js/jquery.fancybox.pack.js"></script>
-    <script src="./_include/js/jquery.fancybox-media.js"></script>
-    <script src="./_include/js/jquery.tweet.js"></script>
-    <script src="./_include/js/plugins.js"></script>
-    <script src="./_include/js/main.js"></script>
+    <script src="/_include/js/bootstrap.min.js"></script>
+    <script src="/_include/js/supersized.3.2.7.min.js"></script>
+    <script src="/_include/js/waypoints.js"></script>
+    <script src="/_include/js/waypoints-sticky.js"></script>
+    <script src="/_include/js/jquery.isotope.js"></script>
+    <script src="/_include/js/jquery.fancybox.pack.js"></script>
+    <script src="/_include/js/jquery.fancybox-media.js"></script>
+    <script src="/_include/js/jquery.tweet.js"></script>
+    <script src="/_include/js/plugins.js"></script>
+    <script src="/_include/js/main.js"></script>
 
 
   </body>
