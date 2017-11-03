@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '/_include/img/slider-images/image01.jpg', title : '<img src="/_include/img/logo.png" class="slide-content" />', thumb : '', url : ''},
-											{image : '/_include/img/slider-images/image02.jpg', title : '<img src="/_include/img/logo.png" class="slide-content" />', thumb : '', url : ''},
-											{image : '/_include/img/slider-images/image03.jpg', title : '<img src="/_include/img/logo.png" class="slide-content" />', thumb : '', url : ''},
-											{image : '/_include/img/slider-images/image04.jpg', title : '<img src="/_include/img/logo.png" class="slide-content" />', thumb : '', url : ''}
+											{image : 'https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/slider_images%2Fimage01.jpg?alt=media&token=47cb7287-4e28-4f38-b3b2-376e6f9f76c6', title : '<img src="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/logo%2Flogo.png?alt=media&token=094ec882-df1c-45b8-912d-754f0c082970" />', thumb : '', url : ''},
+											{image : 'https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/slider_images%2Fimage02.jpg?alt=media&token=b18d56f8-01d5-4e5c-9177-47afc642485e', title : '<img src="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/logo%2Flogo.png?alt=media&token=094ec882-df1c-45b8-912d-754f0c082970" />', thumb : '', url : ''},
+											{image : 'https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/slider_images%2Fimage03.jpg?alt=media&token=3d4f5c21-1d6a-4eb9-b5fb-1c03ed963184', title : '<img src="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/logo%2Flogo.png?alt=media&token=094ec882-df1c-45b8-912d-754f0c082970" />', thumb : '', url : ''},
+											{image : 'https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/slider_images%2Fimage04.jpg?alt=media&token=6a9f8ebb-e331-443e-8d28-a2223b888bdf', title : '<img src="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/logo%2Flogo.png?alt=media&token=094ec882-df1c-45b8-912d-754f0c082970" />', thumb : '', url : ''}
 									],
 
 		// Theme Options
