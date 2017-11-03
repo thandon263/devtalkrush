@@ -176,7 +176,7 @@
 
 																<li class="item-thumbs span3 design">
 
-																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2Fimage-01-full.jpg?alt=media&token=d0cb40c2-54a1-4089-a84a-441cdacc3d03">
+																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
@@ -188,7 +188,7 @@
 
 																<li class="item-thumbs span3 design">
 
-																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2Fimage-02-full.jpg?alt=media&token=b8cb7585-6e91-483c-a6e3-cc46fd687e5b">
+																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
@@ -200,7 +200,7 @@
 
 																<li class="item-thumbs span3 photography">
 
-																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2Fimage-03-full.jpg?alt=media&token=eeeca4fd-d0ed-4c4e-b329-45a0d195c22d">
+																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
@@ -212,7 +212,7 @@
 
 																<li class="item-thumbs span3 video">
 
-																		<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2Fimage-04-full.jpg?alt=media&token=804c71b8-9078-4bb5-a4b6-c3d36275b3e2">
+																		<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
@@ -224,7 +224,7 @@
 
 																<li class="item-thumbs span3 photography">
 
-																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2Fimage-05-full.jpg?alt=media&token=445ddf9e-eaa7-4604-bfab-c3c4046a4460">
+																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
@@ -236,7 +236,7 @@
 
 																<li class="item-thumbs span3 photography">
 
-																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2Fimage-06-full.jpg?alt=media&token=02a84412-b9c7-407e-98b8-653ab134f953">
+																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
@@ -248,7 +248,7 @@
 
 																<li class="item-thumbs span3 video">
 
-																		<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2Fimage-07-full.jpg?alt=media&token=cae85190-759a-42db-802f-d596d525764d">
+																		<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
@@ -260,7 +260,7 @@
 
 																<li class="item-thumbs span3 design">
 
-																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Fthumbs%2Fimage-08.jpg?alt=media&token=35e78939-0e4f-4f63-9367-e3270a2bdb1b">
+																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
@@ -272,7 +272,7 @@
 
 																<li class="item-thumbs span3 design">
 
-																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Fthumbs%2Fimage-08.jpg?alt=media&token=35e78939-0e4f-4f63-9367-e3270a2bdb1b">
+																		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="#">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
