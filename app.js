@@ -4,11 +4,30 @@ var favicon = require("serve-favicon");
 var logger = require("morgan");
 var cookieParser = require("cookie-parser");
 var bodyParser = require("body-parser");
-
+var firebase = require("firebase");
 var index = require("./routes/index");
 var users = require("./routes/users");
 
 var app = express();
+
+//Initialize database
+// var database = firebase.database();
+//
+// function writeContactData(id, name, email, message) {
+//   var count = 1;
+//   count += 1;
+//   firebase
+//     .database()
+//     .ref("contacts/" + count)
+//     .set({
+//       id: count,
+//       name: name,
+//       email: email,
+//       message: message
+//     });
+//
+//   console.log(`Keep track of the Counter: ${count} users`);
+// }
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
@@ -31,13 +50,6 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
-
-// API Keys for the Firebase
-const APIKEY = "AIzaSyBQCmyruPgWgLLnuxgdikWAp6eZv8Q1--8";
-const AUTHDOMAIN = "thandothedev.firebaseapp.com";
-const STORAGEBKT = "thandothedev.appspot.com";
-const DATABASEURL = "https://thandothedev.firebaseio.com";
-const MESSAGINGSENDERID = "510828594552";
 
 // error handler
 app.use(function(err, req, res, next) {

@@ -99,6 +99,10 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <!-- The Slider -->
+
+    <!-- React -->
+      <div id="root"></div>
+    <!-- ReactDOM End -->
 		<div class="ole">
 			<section id="jSplash">
 				<div id="circle"></div>
@@ -184,7 +188,15 @@
 																			<img src="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2Fcode-for-thandothedevv.png?alt=media&token=0aabf871-89ea-4d53-9cb1-ceaa9bf8d07a" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."/>
 																	</li>
 
+                                  <li class="item-thumbs span3 design">
 
+                                      <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" target="_blank" href="http://allnationssdachurch.ca">
+                                          <span class="overlay-img"></span>
+                                            <span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
+                                        </a>
+
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Ffull%2FSoftware.png?alt=media&token=4eb6a8bd-35c3-4eec-86b2-2ad3e4b1a0f4" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis."/>
+                                    </li>
 
 																<li class="item-thumbs span3 design">
 
@@ -271,12 +283,12 @@
 
 																<li class="item-thumbs span3 video">
 
-																		<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" target="_blank" href="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Fthumbs%2Fimage-04.jpg?alt=media&token=523a331b-f056-4d7a-aca4-d07da4912d0f">
+																		<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" target="_blank" href="https://youtu.be/yxdRTaAp5Fw">
 																				<span class="overlay-img"></span>
 																					<span class="overlay-img-thumb fa fa-plus" aria-hidden="true"></span>
 																			</a>
 
-																			<img src="https://firebasestorage.googleapis.com/v0/b/thandothedev.appspot.com/o/work%2Fthumbs%2Fimage-04.jpg?alt=media&token=523a331b-f056-4d7a-aca4-d07da4912d0f" alt="Video"/>
+																			<img src="https://youtu.be/yxdRTaAp5Fw" alt="Video"/>
 																	</li>
 
 
@@ -377,27 +389,43 @@
 
 					<div class="row">
 						<div class="span9">
-							<form id="contact-form" class="contact-form" method="post" action="ncubethando20@gmail.com">
-									<p class="contact-name">
-										<input id="contact_name" type="text" onChange={this.updateMessageName} placeholder="Full Name" value="" name="name" />
-										</p>
-										<p class="contact-email">
-											<input id="contact_email" type="text" onChange={this.updateMessageEmail} placeholder="Email Address" value="" name="email" />
-										</p>
-										<p class="contact-message">
-											<textarea id="contact_message" placeholder="Your Message" onChange={this.updateMessage} name="message" rows="15" cols="40"></textarea>
-										</p>
-										<p class="contact-submit">
-											<a id="contact-submit" class="submit" onClick={this.submitMessage} href="#">Send Your Email</a>
-										</p>
 
-										<div id="response">
-
-										</div>
-								</form>
-
+              <div>
+                <iframe width="600" height="450" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/search?q=North%20york%2C%20Toronto&key=AIzaSyCMrAsPAp3lYAwOiGWW5QU_-YGkAfDRCVk" allowfullscreen></iframe>
+              </div>
 
 							</div>
+              <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBQCmyruPgWgLLnuxgdikWAp6eZv8Q1--8",
+    authDomain: "thandothedev.firebaseapp.com",
+    databaseURL: "https://thandothedev.firebaseio.com",
+    projectId: "thandothedev",
+    storageBucket: "thandothedev.appspot.com",
+    messagingSenderId: "510828594552"
+  };
+  firebase.initializeApp(config);
+
+  var database = firebase.database();
+
+  function writeContactData(id, name, email, message) {
+    var count = 1;
+    count += 1;
+    firebase
+      .database()
+      .ref("contacts/" + count)
+      .set({
+        id: count,
+        name: name,
+        email: email,
+        message: message
+      });
+
+    console.log(`Keep track of the Counter: ${count} users`);
+  }
+</script>
 
 							<div class="span3">
 								<div class="contact-details">
@@ -479,6 +507,20 @@
       firebase.initializeApp(config);
     </script>
     <!-- Game over -->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+
+    (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/590ba8c364f23d19a89b0cd8/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
 
 		<script src="build/bundle.js" type="script/javascript"></script>
 		<script src="build/bundle.map" type="script/javascript"></script>
